@@ -1,0 +1,134 @@
+{
+  "c1_wait": {
+    "flags": [
+      "waited_for_roman"
+    ],
+    "hearts": {
+      "roman": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c1_joke": {
+    "flags": [
+      "joined_the_joke"
+    ],
+    "hearts": {
+      "sia": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c1_help": {
+    "flags": [
+      "shared_the_boxes"
+    ],
+    "hearts": {
+      "darim": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c2_photo": {
+    "flags": [
+      "photo_consent"
+    ],
+    "hearts": {
+      "omu": {
+        "happy": 10,
+        "bad": 0
+      }
+    }
+  },
+  "c2_plan": {
+    "flags": [
+      "checked_the_plan"
+    ],
+    "hearts": {
+      "lumi": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c2_script": {
+    "flags": [
+      "shared_the_script"
+    ],
+    "hearts": {}
+  },
+  "c3_honest": {
+    "flags": [
+      "honest_about_time"
+    ],
+    "hearts": {
+      "darim": {
+        "happy": 10,
+        "bad": 0
+      },
+      "lumi": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c3_listen": {
+    "flags": [
+      "listened_first"
+    ],
+    "hearts": {
+      "omu": {
+        "happy": 5,
+        "bad": 0
+      },
+      "roman": {
+        "happy": 5,
+        "bad": 0
+      }
+    }
+  },
+  "c3_sia": {
+    "flags": [
+      "heard_sia_out"
+    ],
+    "hearts": {
+      "sia": {
+        "happy": 10,
+        "bad": 0
+      }
+    }
+  },
+  "c4_roman": {
+    "flags": [
+      "walk_roman"
+    ],
+    "hearts": {}
+  },
+  "c4_sia": {
+    "flags": [
+      "walk_sia"
+    ],
+    "hearts": {}
+  },
+  "c4_darim": {
+    "flags": [
+      "walk_darim"
+    ],
+    "hearts": {}
+  },
+  "c4_omu": {
+    "flags": [
+      "walk_omu"
+    ],
+    "hearts": {}
+  },
+  "c4_lumi": {
+    "flags": [
+      "walk_lumi"
+    ],
+    "hearts": {}
+  }
+}

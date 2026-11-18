@@ -1,0 +1,2299 @@
+{
+  "schema": 2,
+  "unit": 5,
+  "choices": {
+    "c1_wait": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "말이 느린 상대가 끝까지 이야기할 시간을 존중한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "로만이 말을 마칠 때까지 기다린다.",
+      "source": "ch01.rpy:26",
+      "kind": "choice"
+    },
+    "c1_joke": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "상대가 받아들이는 가벼운 농담에 응하며 함께 일하자는 뜻을 전한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "시아에게 응원 담당도 손은 두 개라고 말한다.",
+      "source": "ch01.rpy:32",
+      "kind": "choice"
+    },
+    "c1_help": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "혼자 짐을 맡지 않도록 책임을 나누는 실제 행동이다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "다림과 상자의 무게를 나눈다.",
+      "source": "ch01.rpy:38",
+      "kind": "choice"
+    },
+    "c2_photo": {
+      "happy": {
+        "omu": 10
+      },
+      "bad": {},
+      "reason": "얼굴 공개를 원하지 않는 사람의 선택권을 직접 제안하고 동의를 확인한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "오므와 사진 위치를 확인한다.",
+      "source": "ch01.rpy:83",
+      "kind": "choice"
+    },
+    "c2_plan": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "관람객의 휴식과 공간 여백을 고려한 구체적인 피드백을 함께 검토한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "하린과 부스 도면을 살펴본다.",
+      "source": "ch01.rpy:91",
+      "kind": "choice"
+    },
+    "c2_script": {
+      "happy": {},
+      "bad": {},
+      "reason": "안내 문구를 함께 다듬는 팀 작업은 기록 플래그로 유지하고 두 사람에게 중복 점수를 주지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "로만, 시아와 안내 문구를 쓴다.",
+      "source": "ch01.rpy:97",
+      "kind": "choice"
+    },
+    "c3_honest": {
+      "happy": {
+        "darim": 10,
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "가능한 시간을 솔직히 밝히고 다림과 일을 나누며, 하린과도 작지만 정확한 약속을 확인한다. 두 사람의 실제 응답을 각각 평가하며 한 사람에게 보상을 합산하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "내 시간을 솔직하게 적고 일을 나눈다.",
+      "source": "ch01.rpy:114",
+      "kind": "choice"
+    },
+    "c3_listen": {
+      "happy": {
+        "roman": 5,
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "로만과 오므 두 사람에게 의견과 필요한 시간을 직접 묻고, 각자의 결정 시간을 존중한다. 두 사람의 실제 참여에 각각 5점을 적용한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "말수가 줄어든 사람들의 의견을 먼저 묻는다.",
+      "source": "ch01.rpy:119",
+      "kind": "choice"
+    },
+    "c3_sia": {
+      "happy": {
+        "sia": 10
+      },
+      "bad": {},
+      "reason": "농담 뒤에 감춰진 작업 부담을 알아보고 현실적인 작업 범위를 함께 조정한다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "웃음 뒤에 조용해진 시아에게 말을 건넨다.",
+      "source": "ch01.rpy:125",
+      "kind": "choice"
+    },
+    "c4_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "귀갓길 동행 상대를 고르는 선택은 취향과 만남 기록이며 관계의 건강함을 평가하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "로만에게 책 이야기를 묻는다.",
+      "source": "ch01.rpy:148",
+      "kind": "choice"
+    },
+    "c4_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "귀갓길 동행 상대를 고르는 선택은 취향과 만남 기록이며 관계의 건강함을 평가하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "시아와 정문 쪽으로 걷는다.",
+      "source": "ch01.rpy:162",
+      "kind": "choice"
+    },
+    "c4_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "귀갓길 동행 상대를 고르는 선택은 취향과 만남 기록이며 관계의 건강함을 평가하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "다림과 남은 물품을 옮긴다.",
+      "source": "ch01.rpy:170",
+      "kind": "choice"
+    },
+    "c4_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "귀갓길 동행 상대를 고르는 선택은 취향과 만남 기록이며 관계의 건강함을 평가하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "오므에게 오늘 사진을 보여 달라고 한다.",
+      "source": "ch01.rpy:179",
+      "kind": "choice"
+    },
+    "c4_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "귀갓길 동행 상대를 고르는 선택은 취향과 만남 기록이며 관계의 건강함을 평가하지 않는다.",
+      "tags": [],
+      "chapter": "LEGACY_CH01",
+      "text": "하린과 접힌 도면을 정리한다.",
+      "source": "ch01.rpy:187",
+      "kind": "choice"
+    },
+    "ch01_sc01_motivation_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "참가 동기는 플레이어의 취향·기대이며 관계 평가 대상이 아니다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "새로운 사람도 좀 만나보고 싶고.",
+      "source": "chapter01_official.rpy:97",
+      "kind": "choice"
+    },
+    "ch01_sc01_motivation_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "참가 동기는 플레이어의 취향·기대이며 관계 평가 대상이 아니다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "대학생활에 추억 하나쯤은 있어야지.",
+      "source": "chapter01_official.rpy:103",
+      "kind": "choice"
+    },
+    "ch01_sc01_motivation_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "참가 동기는 플레이어의 취향·기대이며 관계 평가 대상이 아니다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "재미있는 일이 생길지도 모르잖아.",
+      "source": "chapter01_official.rpy:107",
+      "kind": "choice"
+    },
+    "ch01_sc02_a": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "상대가 시작한 농담을 가볍게 받아주며 서로 대화를 이어간다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "그럼 감상료는 얼마 주는데요?",
+      "source": "chapter01_official.rpy:281",
+      "kind": "choice"
+    },
+    "ch01_sc02_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "모임 분위기나 장소를 확인하는 정보 선택으로 특정 히로인의 호감을 자동 지급하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "원래 다들 이런 분위기예요?",
+      "source": "chapter01_official.rpy:299",
+      "kind": "choice"
+    },
+    "ch01_sc02_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "모임 분위기나 장소를 확인하는 정보 선택으로 특정 히로인의 호감을 자동 지급하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "그래서 모임 장소는 어디예요?",
+      "source": "chapter01_official.rpy:321",
+      "kind": "choice"
+    },
+    "ch01_sc03_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "상대가 좋아하는 책에 관심을 보이고 생각을 물으며 대화를 연다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "책 좋아하시나 봐요?",
+      "source": "chapter01_official.rpy:459",
+      "kind": "choice"
+    },
+    "ch01_sc03_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "놀란 상대의 상태를 확인하고 답을 재촉하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "많이 놀랐죠? 괜찮아요?",
+      "source": "chapter01_official.rpy:485",
+      "kind": "choice"
+    },
+    "ch01_sc03_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "상대가 좋아하는 책에 관심을 보이고 생각을 물으며 대화를 연다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "그 책 재미있어요?",
+      "source": "chapter01_official.rpy:508",
+      "kind": "choice"
+    },
+    "ch01_sc06_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "누구의 일을 먼저 도울지 정하는 분기 선택으로, 동행 자체를 호감도와 동일시하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "로만: 전시 문구부터 같이 찾아볼까요?",
+      "source": "chapter01_official.rpy:937",
+      "kind": "choice"
+    },
+    "ch01_sc06_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "누구의 일을 먼저 도울지 정하는 분기 선택으로, 동행 자체를 호감도와 동일시하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "시아: 웹툰 콘티 만드는 거 도와드릴게요.",
+      "source": "chapter01_official.rpy:945",
+      "kind": "choice"
+    },
+    "ch01_sc06_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "누구의 일을 먼저 도울지 정하는 분기 선택으로, 동행 자체를 호감도와 동일시하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "다림: 일정표 정리부터 해요.",
+      "source": "chapter01_official.rpy:955",
+      "kind": "choice"
+    },
+    "ch01_sc06_d": {
+      "happy": {},
+      "bad": {},
+      "reason": "누구의 일을 먼저 도울지 정하는 분기 선택으로, 동행 자체를 호감도와 동일시하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "오므: 사진 찍으러 같이 가도 돼요?",
+      "source": "chapter01_official.rpy:965",
+      "kind": "choice"
+    },
+    "ch01_sc06_e": {
+      "happy": {},
+      "bad": {},
+      "reason": "누구의 일을 먼저 도울지 정하는 분기 선택으로, 동행 자체를 호감도와 동일시하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "하린: 부스 배치도 만드는 거 같이 볼까요?",
+      "source": "chapter01_official.rpy:977",
+      "kind": "choice"
+    },
+    "ch01_sc07_roman_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "기억에 남는 하루의 종류를 고르는 취향·경험 응답이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "재미있게 웃었던 날.",
+      "source": "chapter01_official.rpy:1084",
+      "kind": "choice"
+    },
+    "ch01_sc07_roman_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "기억에 남는 하루의 종류를 고르는 취향·경험 응답이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "조용하고 편안했던 날.",
+      "source": "chapter01_official.rpy:1092",
+      "kind": "choice"
+    },
+    "ch01_sc07_roman_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "기억에 남는 하루의 종류를 고르는 취향·경험 응답이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "평소와 달랐던 날.",
+      "source": "chapter01_official.rpy:1098",
+      "kind": "choice"
+    },
+    "ch01_sc07_sia_a": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "시아의 콘티를 진지하게 보고 도입·참여 방법·개그의 구성에 구체적인 피드백을 준다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "웃긴 장면을 먼저 넣어요.",
+      "source": "chapter01_official.rpy:1232",
+      "kind": "choice"
+    },
+    "ch01_sc07_sia_b": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "시아의 콘티를 진지하게 보고 도입·참여 방법·개그의 구성에 구체적인 피드백을 준다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "참여 방법을 쉽게 알려줘요.",
+      "source": "chapter01_official.rpy:1238",
+      "kind": "choice"
+    },
+    "ch01_sc07_sia_c": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "시아의 콘티를 진지하게 보고 도입·참여 방법·개그의 구성에 구체적인 피드백을 준다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "둘 다 할 수 있지 않아요?",
+      "source": "chapter01_official.rpy:1244",
+      "kind": "choice"
+    },
+    "ch01_sc07_darim_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "게임 플레이 성향은 취향이며 어느 쪽도 관계의 우열이나 회피로 평가하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "공격적으로 플레이하는 편이에요.",
+      "source": "chapter01_official.rpy:1381",
+      "kind": "choice"
+    },
+    "ch01_sc07_darim_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "게임 플레이 성향은 취향이며 어느 쪽도 관계의 우열이나 회피로 평가하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "안전하게 운영하는 편이에요.",
+      "source": "chapter01_official.rpy:1387",
+      "kind": "choice"
+    },
+    "ch01_sc07_darim_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "게임 플레이 성향은 취향이며 어느 쪽도 관계의 우열이나 회피로 평가하지 않는다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "그때그때 달라요.",
+      "source": "chapter01_official.rpy:1393",
+      "kind": "choice"
+    },
+    "ch01_sc07_omu_a": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "사진에서 작가의 시선과 취향이 드러난다는 점을 진지하게 감상한다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "사진에는 찍는 사람의 취향이 보이는 것 같아요.",
+      "source": "chapter01_official.rpy:1553",
+      "kind": "choice"
+    },
+    "ch01_sc07_omu_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "잘 나온 사진을 좋아한다는 감상 취향은 점수 없이 유지한다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "전 그냥 잘 나온 사진이 좋던데요.",
+      "source": "chapter01_official.rpy:1559",
+      "kind": "choice"
+    },
+    "ch01_sc07_omu_c": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "상대의 사진 활동과 기술을 존중하고 배워보고 싶다는 관심을 표현한다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "저도 사진 좀 배워볼까요?",
+      "source": "chapter01_official.rpy:1565",
+      "kind": "choice"
+    },
+    "ch01_sc07_lumi_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "동선·사진 공간·휴식 공간 중 무엇을 우선할지 정하는 설계 취향이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "동선을 조금 더 단순하게 만들어요.",
+      "source": "chapter01_official.rpy:1688",
+      "kind": "choice"
+    },
+    "ch01_sc07_lumi_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "동선·사진 공간·휴식 공간 중 무엇을 우선할지 정하는 설계 취향이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "사진 공간을 더 넓히면 좋겠어요.",
+      "source": "chapter01_official.rpy:1692",
+      "kind": "choice"
+    },
+    "ch01_sc07_lumi_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "동선·사진 공간·휴식 공간 중 무엇을 우선할지 정하는 설계 취향이다.",
+      "tags": [],
+      "chapter": "CH01",
+      "text": "앉아서 쉴 공간도 있으면 좋겠는데요.",
+      "source": "chapter01_official.rpy:1698",
+      "kind": "choice"
+    },
+    "ch02_sc03_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌에게 보이는 태도와 정보 확인은 별도 기억으로 남기며 특정 히로인의 연애 점수로 변환하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "그 자신감이면 부스도 혼자 만들겠네요.",
+      "source": "chapter02_official.rpy:397",
+      "kind": "choice"
+    },
+    "ch02_sc03_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌에게 보이는 태도와 정보 확인은 별도 기억으로 남기며 특정 히로인의 연애 점수로 변환하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "서로 열심히 준비해 봐요.",
+      "source": "chapter02_official.rpy:415",
+      "kind": "choice"
+    },
+    "ch02_sc03_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌에게 보이는 태도와 정보 확인은 별도 기억으로 남기며 특정 히로인의 연애 점수로 변환하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "어떤 부스를 준비하고 있어요?",
+      "source": "chapter02_official.rpy:433",
+      "kind": "choice"
+    },
+    "ch02_sc05_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 표현하는 취향 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "정신없는 하루",
+      "source": "chapter02_official.rpy:733",
+      "kind": "choice"
+    },
+    "ch02_sc05_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 표현하는 취향 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "평범하고 편안한 하루",
+      "source": "chapter02_official.rpy:744",
+      "kind": "choice"
+    },
+    "ch02_sc05_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 표현하는 취향 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "무언가 기대되는 하루",
+      "source": "chapter02_official.rpy:755",
+      "kind": "choice"
+    },
+    "ch02_sc06_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "작업 동행 상대를 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "로만과 질문 카드를 만든다.",
+      "source": "chapter02_official.rpy:909",
+      "kind": "choice"
+    },
+    "ch02_sc06_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "작업 동행 상대를 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "시아와 안내 만화를 수정한다.",
+      "source": "chapter02_official.rpy:913",
+      "kind": "choice"
+    },
+    "ch02_sc06_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "작업 동행 상대를 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "다림과 운영 계획을 정리한다.",
+      "source": "chapter02_official.rpy:917",
+      "kind": "choice"
+    },
+    "ch02_sc06_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "작업 동행 상대를 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "오므와 전시용 사진을 찍는다.",
+      "source": "chapter02_official.rpy:921",
+      "kind": "choice"
+    },
+    "ch02_sc06_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "작업 동행 상대를 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "하린과 부스 모형을 만든다.",
+      "source": "chapter02_official.rpy:925",
+      "kind": "choice"
+    },
+    "ch02_roman_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 글로 표현하는 감상 선택으로 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "생각보다 재미있는 사람들을 만난 날.",
+      "source": "chapter02_official.rpy:1003",
+      "kind": "choice"
+    },
+    "ch02_roman_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 글로 표현하는 감상 선택으로 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "조금씩 새로운 걸 배우는 날.",
+      "source": "chapter02_official.rpy:1018",
+      "kind": "choice"
+    },
+    "ch02_roman_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "자신의 하루를 글로 표현하는 감상 선택으로 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "아직 어떻게 끝날지 모르는 날.",
+      "source": "chapter02_official.rpy:1029",
+      "kind": "choice"
+    },
+    "ch02_sia_a": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "완성도를 위해 설명과 개그를 구체적으로 검토하는 피드백이며 창작자에게 결정을 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "강아지는 남기고 내용을 단순화해요.",
+      "source": "chapter02_official.rpy:1153",
+      "kind": "choice"
+    },
+    "ch02_sia_b": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "완성도를 위해 설명과 개그를 구체적으로 검토하는 피드백이며 창작자에게 결정을 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "사람이 직접 설명하는 방식으로 바꿔요.",
+      "source": "chapter02_official.rpy:1162",
+      "kind": "choice"
+    },
+    "ch02_sia_c": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "완성도를 위해 설명과 개그를 구체적으로 검토하는 피드백이며 창작자에게 결정을 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "설명은 간단하게, 마지막에 개그를 넣어요.",
+      "source": "chapter02_official.rpy:1171",
+      "kind": "choice"
+    },
+    "ch02_darim_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "일을 자발적으로 나누거나 일정·팀원 의견을 함께 확인하여 혼자 부담을 떠안지 않게 한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "제가 안내문 점검을 맡을게요.",
+      "source": "chapter02_official.rpy:1302",
+      "kind": "choice"
+    },
+    "ch02_darim_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "일을 자발적으로 나누거나 일정·팀원 의견을 함께 확인하여 혼자 부담을 떠안지 않게 한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "작업별 마감일을 같이 확인해요.",
+      "source": "chapter02_official.rpy:1311",
+      "kind": "choice"
+    },
+    "ch02_darim_c": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "일을 자발적으로 나누거나 일정·팀원 의견을 함께 확인하여 혼자 부담을 떠안지 않게 한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "다른 팀원들 의견도 먼저 들어보죠.",
+      "source": "chapter02_official.rpy:1318",
+      "kind": "choice"
+    },
+    "ch02_omu_a": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "함께 치우거나 관리 담당자에게 알리는 현실적인 해결 방법을 제안한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "같이 치워요.",
+      "source": "chapter02_official.rpy:1458",
+      "kind": "choice"
+    },
+    "ch02_omu_b": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "함께 치우거나 관리 담당자에게 알리는 현실적인 해결 방법을 제안한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "관리하시는 분께 알려드려요.",
+      "source": "chapter02_official.rpy:1471",
+      "kind": "choice"
+    },
+    "ch02_omu_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "쓰레기 투기에 대한 불만을 말하는 것만으로 호감이나 배드 점수를 주지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "저런 사람들은 왜 그러는 걸까요?",
+      "source": "chapter02_official.rpy:1482",
+      "kind": "choice"
+    },
+    "ch02_lumi_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "함께 모형을 보며 접근성·전시·휴식의 구체적인 공간 요구를 설명한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "관람객이 움직이기 편한 게 우선이죠.",
+      "source": "chapter02_official.rpy:1630",
+      "kind": "choice"
+    },
+    "ch02_lumi_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "함께 모형을 보며 접근성·전시·휴식의 구체적인 공간 요구를 설명한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "전시물이 잘 보이는 것도 중요하지 않을까요?",
+      "source": "chapter02_official.rpy:1637",
+      "kind": "choice"
+    },
+    "ch02_lumi_c": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "함께 모형을 보며 접근성·전시·휴식의 구체적인 공간 요구를 설명한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "잠깐 쉴 수 있는 공간은 없어요?",
+      "source": "chapter02_official.rpy:1644",
+      "kind": "choice"
+    },
+    "ch02_sc07_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌을 돕는 방식이나 팀 업무 우선순위를 기록하며 제삼자에 대한 행동을 히로인 점수로 대체하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "일단 같이 주워요.",
+      "source": "chapter02_official.rpy:1775",
+      "kind": "choice"
+    },
+    "ch02_sc07_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌을 돕는 방식이나 팀 업무 우선순위를 기록하며 제삼자에 대한 행동을 히로인 점수로 대체하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "필요한 게 있는지 물어보자.",
+      "source": "chapter02_official.rpy:1802",
+      "kind": "choice"
+    },
+    "ch02_sc07_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "라이벌을 돕는 방식이나 팀 업무 우선순위를 기록하며 제삼자에 대한 행동을 히로인 점수로 대체하지 않는다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "저쪽에서 정리하는 것 같으니 우리 준비를 계속해요.",
+      "source": "chapter02_official.rpy:1827",
+      "kind": "choice"
+    },
+    "ch02_sc08_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "발표 전략은 팀 준비도와 전시 기억으로 유지한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "팀원들의 예시 작품을 먼저 전시하겠습니다.",
+      "source": "chapter02_official.rpy:2093",
+      "kind": "choice"
+    },
+    "ch02_sc08_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "발표 전략은 팀 준비도와 전시 기억으로 유지한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "참여 절차를 더 간단하게 만들겠습니다.",
+      "source": "chapter02_official.rpy:2105",
+      "kind": "choice"
+    },
+    "ch02_sc08_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "발표 전략은 팀 준비도와 전시 기억으로 유지한다.",
+      "tags": [],
+      "chapter": "CH02",
+      "text": "방문객이 쉽게 이해할 안내물을 강화하겠습니다.",
+      "source": "chapter02_official.rpy:2117",
+      "kind": "choice"
+    },
+    "ch03_sc02_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "시범 운영의 점검 업무를 선택하는 분기이며 상대 선택만으로 호감이 늘지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "로만과 전시 안내문을 확인한다.",
+      "source": "chapter03_official.rpy:248",
+      "kind": "choice"
+    },
+    "ch03_sc02_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "시범 운영의 점검 업무를 선택하는 분기이며 상대 선택만으로 호감이 늘지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "하린과 방문객 동선을 확인한다.",
+      "source": "chapter03_official.rpy:254",
+      "kind": "choice"
+    },
+    "ch03_sc02_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "시범 운영의 점검 업무를 선택하는 분기이며 상대 선택만으로 호감이 늘지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다림과 팀원별 역할을 확인한다.",
+      "source": "chapter03_official.rpy:260",
+      "kind": "choice"
+    },
+    "ch03_sc05_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "기록을 남기지 않을 자유를 보장하며 로만과 함께 관람객의 자율성을 실제 운영에 반영한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "기록하지 않고 관람만 해도 되게 해요.",
+      "source": "chapter03_official.rpy:634",
+      "kind": "choice"
+    },
+    "ch03_sc05_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "공개 동의와 철회 방법을 명확히 하여 타인의 경계와 결정을 존중한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "공개 여부와 철회 방법을 확실히 안내해요.",
+      "source": "chapter03_official.rpy:640",
+      "kind": "choice"
+    },
+    "ch03_sc05_c": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "글을 쓰기 어려운 사람도 강요 없이 참여하도록 선택권을 넓힌다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "글 대신 간단한 스티커 참여도 가능하게 해요.",
+      "source": "chapter03_official.rpy:646",
+      "kind": "choice"
+    },
+    "ch03_sc06_partner_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "개인 이벤트의 동행 선택이며 점수로 루트를 유도하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "로만과 질문 카드 수정하기",
+      "source": "chapter03_official.rpy:699",
+      "kind": "choice"
+    },
+    "ch03_sc06_partner_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "개인 이벤트의 동행 선택이며 점수로 루트를 유도하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "시아와 안내 만화 완성하기",
+      "source": "chapter03_official.rpy:702",
+      "kind": "choice"
+    },
+    "ch03_sc06_partner_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "개인 이벤트의 동행 선택이며 점수로 루트를 유도하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다림과 운영 자료 정리하기",
+      "source": "chapter03_official.rpy:705",
+      "kind": "choice"
+    },
+    "ch03_sc06_partner_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "개인 이벤트의 동행 선택이며 점수로 루트를 유도하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "오므와 현장 사진 확인하기",
+      "source": "chapter03_official.rpy:708",
+      "kind": "choice"
+    },
+    "ch03_sc06_partner_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "개인 이벤트의 동행 선택이며 점수로 루트를 유도하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "하린과 부스 배치 수정하기",
+      "source": "chapter03_official.rpy:711",
+      "kind": "choice"
+    },
+    "ch03_sc06_roman_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "함께 이야기하는 것이 좋다는 마음을 솔직하게 표현한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "저도 로만 씨랑 이야기하는 거 좋아해요.",
+      "source": "chapter03_official.rpy:847",
+      "kind": "choice"
+    },
+    "ch03_sc06_roman_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "서로 동의한 다음 도서관 만남을 현실적인 약속으로 제안한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "그럼 다음에 또 도서관에 올까요?",
+      "source": "chapter03_official.rpy:858",
+      "kind": "choice"
+    },
+    "ch03_sc06_roman_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "다음 질문 카드를 만드는 작업 방향은 기억만 유지한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "그럼 질문 하나만 더 만들어볼까요?",
+      "source": "chapter03_official.rpy:865",
+      "kind": "choice"
+    },
+    "ch03_sc06_sia_a": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "장난꾸러기라는 인상뿐 아니라 진지하게 창작하는 모습을 인정한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "그림 그릴 때 시아 씨 모습이 좀 멋있었어요.",
+      "source": "chapter03_official.rpy:1066",
+      "kind": "choice"
+    },
+    "ch03_sc06_sia_b": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "다음 작품을 함께 고민하겠다는 창작 지원 의사를 표현한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다음 작품도 같이 고민해볼까요?",
+      "source": "chapter03_official.rpy:1079",
+      "kind": "choice"
+    },
+    "ch03_sc06_sia_c": {
+      "happy": {
+        "sia": 5
+      },
+      "bad": {},
+      "reason": "시아가 만들고 싶어 하는 원래 작품을 응원한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "강아지 우주 대모험은 꼭 완성해 주세요.",
+      "source": "chapter03_official.rpy:1092",
+      "kind": "choice"
+    },
+    "ch03_sc06_darim_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "함께 있을 때 편안하다는 감정을 솔직히 나눈다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "선배랑 있으면 편해요.",
+      "source": "chapter03_official.rpy:1280",
+      "kind": "choice"
+    },
+    "ch03_sc06_darim_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "도움과 대접을 일방적으로 받지 않고 다음에는 자신도 나누겠다는 현실적인 약속이다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다음에는 제가 먼저 커피 살게요.",
+      "source": "chapter03_official.rpy:1289",
+      "kind": "choice"
+    },
+    "ch03_sc06_darim_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "게임 승부 농담은 성격·취향 표현이며 건강한 관계의 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "게임은 제가 이길 것 같은데요?",
+      "source": "chapter03_official.rpy:1298",
+      "kind": "choice"
+    },
+    "ch03_sc06_omu_a": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "같이 사진을 찍는 시간이 즐겁다는 마음을 솔직히 전한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "오므 씨랑 같이 찍으러 다니니까 재미있어요.",
+      "source": "chapter03_official.rpy:1475",
+      "kind": "choice"
+    },
+    "ch03_sc06_omu_b": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "사진가의 경험을 존중하고 배우겠다는 구체적인 관심을 보인다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "사진 구도 좀 더 알려 주세요.",
+      "source": "chapter03_official.rpy:1486",
+      "kind": "choice"
+    },
+    "ch03_sc06_omu_c": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "팀 분위기가 보인다는 구체적인 감상 뒤 함께 대표 사진 후보를 정한다. 강제 공개가 아니다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "이 사진은 전시에 꼭 넣어요.",
+      "source": "chapter03_official.rpy:1497",
+      "kind": "choice"
+    },
+    "ch03_sc06_lumi_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "서로 웃으며 주고받는 장난은 별도 기억으로 유지하며 배드 행동으로 오판하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "당황했어요?",
+      "source": "chapter03_official.rpy:1681",
+      "kind": "choice"
+    },
+    "ch03_sc06_lumi_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "상대의 동의를 얻어 다음 공동 작업을 약속한다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다음에도 같이 작업해요.",
+      "source": "chapter03_official.rpy:1694",
+      "kind": "choice"
+    },
+    "ch03_sc06_lumi_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "서로 웃으며 주고받는 장난은 별도 기억으로 유지하며 배드 행동으로 오판하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "이번엔 제가 놀린 것 같네요.",
+      "source": "chapter03_official.rpy:1705",
+      "kind": "choice"
+    },
+    "ch03_sc07_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "협력 업무의 배분 선택이며 특정 사람과 일한다는 이유만으로 연애 점수를 지급하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "하린·협합과 동선을 수정한다.",
+      "source": "chapter03_official.rpy:1839",
+      "kind": "choice"
+    },
+    "ch03_sc07_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "협력 업무의 배분 선택이며 특정 사람과 일한다는 이유만으로 연애 점수를 지급하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "다림·밤밤·헤스와 방문객을 안내한다.",
+      "source": "chapter03_official.rpy:1849",
+      "kind": "choice"
+    },
+    "ch03_sc07_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "협력 업무의 배분 선택이며 특정 사람과 일한다는 이유만으로 연애 점수를 지급하지 않는다.",
+      "tags": [],
+      "chapter": "CH03",
+      "text": "시아·오므·로만과 안내 표지를 만든다.",
+      "source": "chapter03_official.rpy:1861",
+      "kind": "choice"
+    },
+    "ch04_sc04_partner_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 작업할 사람을 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "로만과 영상 문구 정리",
+      "source": "chapter04_official.rpy:744",
+      "kind": "choice"
+    },
+    "ch04_sc04_partner_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 작업할 사람을 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "시아와 콘티 수정",
+      "source": "chapter04_official.rpy:747",
+      "kind": "choice"
+    },
+    "ch04_sc04_partner_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 작업할 사람을 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "다림과 운영 자료 정리",
+      "source": "chapter04_official.rpy:750",
+      "kind": "choice"
+    },
+    "ch04_sc04_partner_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 작업할 사람을 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "오므와 촬영 자료 선별",
+      "source": "chapter04_official.rpy:753",
+      "kind": "choice"
+    },
+    "ch04_sc04_partner_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 작업할 사람을 고르는 분기 선택이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "하린과 부스 모형 수정",
+      "source": "chapter04_official.rpy:756",
+      "kind": "choice"
+    },
+    "ch04_sc06_roman_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "아직 공개하고 싶지 않은 초고를 재촉하지 않고 창작자가 정한 속도를 존중한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "네. 천천히 하셔도 괜찮아요.",
+      "source": "chapter04_official.rpy:1222",
+      "kind": "choice"
+    },
+    "ch04_sc06_roman_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "나중에 읽고 싶다는 응원을 전하고 공개 시점은 로만에게 맡긴다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "언젠가 읽어볼 수 있으면 좋겠네요.",
+      "source": "chapter04_official.rpy:1230",
+      "kind": "choice"
+    },
+    "ch04_sc06_roman_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "로만이 재촉하지 않는다는 규칙을 직접 정하는 상호 동의의 약속이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "그럼 나중에 보여주시는 걸로 약속할까요?",
+      "source": "chapter04_official.rpy:1238",
+      "kind": "choice"
+    },
+    "ch04_sc06_sia_a": {
+      "happy": {
+        "sia": 10
+      },
+      "bad": {},
+      "reason": "장난을 강요하지 않고 진지하게 작업하는 시아의 모습과 마음을 인정한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "진지하게 작업하시는 모습도 멋있어요.",
+      "source": "chapter04_official.rpy:1409",
+      "kind": "choice"
+    },
+    "ch04_sc06_sia_b": {
+      "happy": {
+        "sia": 10
+      },
+      "bad": {},
+      "reason": "창작 고민을 함께 검토하겠다고 제안하고 시아가 이를 수락한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "다음 콘티도 같이 고민해볼까요?",
+      "source": "chapter04_official.rpy:1417",
+      "kind": "choice"
+    },
+    "ch04_sc06_sia_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "시아가 자발적으로 다시 받아주는 농담이다. 진심 무시나 배드 행동으로 확대 해석하지 않되 점수도 주지 않는다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "그럼 이번엔 제가 먼저 장난쳐볼까요?",
+      "source": "chapter04_official.rpy:1429",
+      "kind": "choice"
+    },
+    "ch04_sc06_darim_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "일을 잘하는 선배 역할 너머 함께 있는 편안함을 솔직히 말한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "선배랑 있으면 편해서 좋아요.",
+      "source": "chapter04_official.rpy:1596",
+      "kind": "choice"
+    },
+    "ch04_sc06_darim_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "다림이 원한 휴식 시간을 인정하고 일 이외의 시간을 함께 만들자고 제안한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "다음에는 편하게 쉬는 시간을 만들어봐요.",
+      "source": "chapter04_official.rpy:1604",
+      "kind": "choice"
+    },
+    "ch04_sc06_darim_c": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "이미 합의한 게임 약속을 기억하고 성실히 이어간다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "게임 약속은 아직 유효하죠?",
+      "source": "chapter04_official.rpy:1610",
+      "kind": "choice"
+    },
+    "ch04_sc06_omu_a": {
+      "happy": {
+        "omu": 10
+      },
+      "bad": {},
+      "reason": "완성물뿐 아니라 사진을 만드는 과정의 가치를 이해하고 구체적으로 짚는다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "완성된 모습만큼 과정도 중요하겠네요.",
+      "source": "chapter04_official.rpy:1761",
+      "kind": "choice"
+    },
+    "ch04_sc06_omu_b": {
+      "happy": {
+        "omu": 5
+      },
+      "bad": {},
+      "reason": "상대가 사진을 좋아하는 이유를 이해했다는 감정을 나눈다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "사진을 좋아하시는 이유를 조금 알 것 같아요.",
+      "source": "chapter04_official.rpy:1769",
+      "kind": "choice"
+    },
+    "ch04_sc06_omu_c": {
+      "happy": {
+        "omu": 10
+      },
+      "bad": {},
+      "reason": "오므의 고민을 무시하거나 대신 결정하지 않고 두 사진의 의미를 살릴 방법을 함께 제안한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "그럼 두 사진 다 넣을 방법을 찾아볼까요?",
+      "source": "chapter04_official.rpy:1778",
+      "kind": "choice"
+    },
+    "ch04_sc06_lumi_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "늘 여유로워야 한다는 부담 없이 당황한 감정도 받아들인다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "가끔은 당황하셔도 괜찮잖아요.",
+      "source": "chapter04_official.rpy:1969",
+      "kind": "choice"
+    },
+    "ch04_sc06_lumi_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "현재 모형 작업을 마칠 동안 곁에 있겠다는 한정되고 실천 가능한 도움이다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "다 고치실 때까지 옆에 있을게요.",
+      "source": "chapter04_official.rpy:1977",
+      "kind": "choice"
+    },
+    "ch04_sc06_lumi_c": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "완벽해야만 가치 있다는 부담을 줄이고 하린의 노력을 인정한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "완벽하지 않아도 충분히 멋있어요.",
+      "source": "chapter04_official.rpy:1985",
+      "kind": "choice"
+    },
+    "ch04_sc07_video_experience": {
+      "happy": {},
+      "bad": {},
+      "reason": "영상의 우선순위 선택은 팀 준비·전시·홍보 지표로만 유지한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "체험 과정을 명확하게 보여주는 게 우선 같아요.",
+      "source": "chapter04_official.rpy:2123",
+      "kind": "choice"
+    },
+    "ch04_sc07_video_emotion": {
+      "happy": {},
+      "bad": {},
+      "reason": "영상의 우선순위 선택은 팀 준비·전시·홍보 지표로만 유지한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "우리 전시만의 분위기를 보여주면 좋겠어요.",
+      "source": "chapter04_official.rpy:2132",
+      "kind": "choice"
+    },
+    "ch04_sc07_video_fun": {
+      "happy": {},
+      "bad": {},
+      "reason": "영상의 우선순위 선택은 팀 준비·전시·홍보 지표로만 유지한다.",
+      "tags": [],
+      "chapter": "CH04",
+      "text": "짧지만 재미있고 기억에 남게 만들어요.",
+      "source": "chapter04_official.rpy:2141",
+      "kind": "choice"
+    },
+    "ch05_sc04_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "이미 만든 전시의 어떤 장점을 발표할지 고르는 설명 방식이며 연애 점수와 구분한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "방문객의 선택을 존중하는 체험이라는 점을 강조한다.",
+      "source": "chapter05_official.rpy:690",
+      "kind": "choice"
+    },
+    "ch05_sc04_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "이미 만든 전시의 어떤 장점을 발표할지 고르는 설명 방식이며 연애 점수와 구분한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "평범한 경험도 특별한 이야기가 될 수 있다는 점을 강조한다.",
+      "source": "chapter05_official.rpy:700",
+      "kind": "choice"
+    },
+    "ch05_sc04_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "이미 만든 전시의 어떤 장점을 발표할지 고르는 설명 방식이며 연애 점수와 구분한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "여러 학과 학생이 함께 만들었다는 점을 강조한다.",
+      "source": "chapter05_official.rpy:710",
+      "kind": "choice"
+    },
+    "ch05_sc07_partner_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제에서 함께 방문할 상대·장소를 정하는 분기와 약속 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "로만 씨와 낭독 행사 구경하기",
+      "source": "chapter05_official.rpy:2055",
+      "kind": "choice"
+    },
+    "ch05_sc07_partner_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제에서 함께 방문할 상대·장소를 정하는 분기와 약속 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "시아 씨와 애니메이션 작품 전시 구경하기",
+      "source": "chapter05_official.rpy:2058",
+      "kind": "choice"
+    },
+    "ch05_sc07_partner_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제에서 함께 방문할 상대·장소를 정하는 분기와 약속 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "다림 선배와 게임 체험 부스 가보기",
+      "source": "chapter05_official.rpy:2061",
+      "kind": "choice"
+    },
+    "ch05_sc07_partner_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제에서 함께 방문할 상대·장소를 정하는 분기와 약속 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "오므 씨와 축제 사진 찍으러 가기",
+      "source": "chapter05_official.rpy:2064",
+      "kind": "choice"
+    },
+    "ch05_sc07_partner_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제에서 함께 방문할 상대·장소를 정하는 분기와 약속 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "CH05",
+      "text": "하린 선배와 완성된 공간 둘러보기",
+      "source": "chapter05_official.rpy:2067",
+      "kind": "choice"
+    },
+    "ch06_final_reflection_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제의 어떤 경험을 소중히 여기는지 묻는 감상에는 점수 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH06",
+      "text": "다 같이 끝까지 해낸 게 가장 기억에 남아요.",
+      "source": "chapter06_official.rpy:2309",
+      "kind": "choice"
+    },
+    "ch06_final_reflection_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제의 어떤 경험을 소중히 여기는지 묻는 감상에는 점수 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH06",
+      "text": "처음 보는 사람들이 저희 전시를 즐겨준 게 좋았어요.",
+      "source": "chapter06_official.rpy:2325",
+      "kind": "choice"
+    },
+    "ch06_final_reflection_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "축제의 어떤 경험을 소중히 여기는지 묻는 감상에는 점수 정답을 만들지 않는다.",
+      "tags": [],
+      "chapter": "CH06",
+      "text": "이 사람들을 알게 된 게 가장 좋았어요.",
+      "source": "chapter06_official.rpy:2339",
+      "kind": "choice"
+    },
+    "roman_r01_choice01_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 읽을 책의 장르나 추천자를 정하는 취향 선택은 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "저는 일상 소설이 끌리네요.",
+      "source": "roman_r01.rpy:217",
+      "kind": "choice"
+    },
+    "roman_r01_choice01_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 읽을 책의 장르나 추천자를 정하는 취향 선택은 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "이 단편집도 재미있어 보이는데요?",
+      "source": "roman_r01.rpy:227",
+      "kind": "choice"
+    },
+    "roman_r01_choice01_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "함께 읽을 책의 장르나 추천자를 정하는 취향 선택은 플래그만 유지한다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "로만 씨가 좋아하시는 책을 같이 읽고 싶어요.",
+      "source": "roman_r01.rpy:243",
+      "kind": "choice"
+    },
+    "roman_r01_choice02_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "다른 해석이 존재함을 즐기며 상호 이해를 넓힌다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "다른 해석을 듣는 게 재미있어요.",
+      "source": "roman_r01.rpy:587",
+      "kind": "choice"
+    },
+    "roman_r01_choice02_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "구체적으로 어떤 시선을 배웠는지 말하며 상대의 해석을 인정한다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "로만 씨는 생각을 깊이 하시는 것 같아요.",
+      "source": "roman_r01.rpy:597",
+      "kind": "choice"
+    },
+    "roman_r01_choice02_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "서로의 해석을 더 듣자는 쌍방 대화로 이어진다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "로만 씨가 좋아하시는 해석을 더 듣고 싶어요.",
+      "source": "roman_r01.rpy:607",
+      "kind": "choice"
+    },
+    "roman_r01_choice03_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "의견이 달라도 직접 말하고 서로 피드백하자는 중요한 의사소통 원칙이다.",
+      "tags": [
+        "boundary",
+        "communication"
+      ],
+      "chapter": "ROMAN_R01",
+      "text": "서로 다른 생각도 편하게 이야기해요.",
+      "source": "roman_r01.rpy:902",
+      "kind": "choice"
+    },
+    "roman_r01_choice03_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "다음 글을 읽고 싶다는 현실적인 창작 응원이다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "로만 씨 글을 앞으로도 읽고 싶어요.",
+      "source": "roman_r01.rpy:912",
+      "kind": "choice"
+    },
+    "roman_r01_choice03_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "첫 독자를 약속하는 다정함만으로 독점이나 의존을 추정하지 않는다. 인간관계 포기나 창작 통제가 없다.",
+      "tags": [],
+      "chapter": "ROMAN_R01",
+      "text": "다른 사람보다 제가 먼저 읽어드릴게요.",
+      "source": "roman_r01.rpy:920",
+      "kind": "choice"
+    },
+    "roman_r02_choice01_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "자신의 마음을 솔직히 표현하거나 서로 추천 장소를 찾는 실천 가능한 다음 약속이다.",
+      "tags": [],
+      "chapter": "ROMAN_R02",
+      "text": "저도 좋은 걸 보면 로만 씨가 생각날 때가 있어요.",
+      "source": "roman_r02.rpy:1074",
+      "kind": "choice"
+    },
+    "roman_r02_choice01_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "자신의 마음을 솔직히 표현하거나 서로 추천 장소를 찾는 실천 가능한 다음 약속이다.",
+      "tags": [],
+      "chapter": "ROMAN_R02",
+      "text": "이렇게 편하게 이야기해 주셔서 좋아요.",
+      "source": "roman_r02.rpy:1090",
+      "kind": "choice"
+    },
+    "roman_r02_choice01_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "자신의 마음을 솔직히 표현하거나 서로 추천 장소를 찾는 실천 가능한 다음 약속이다.",
+      "tags": [],
+      "chapter": "ROMAN_R02",
+      "text": "그럼 다음에는 제가 먼저 좋은 장소를 찾아볼게요.",
+      "source": "roman_r02.rpy:1100",
+      "kind": "choice"
+    },
+    "roman_r02_choice02_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "각자의 바쁜 시간을 인정하고 편한 시간에 연락하자는 경계를 명확히 한다.",
+      "tags": [
+        "boundary",
+        "personal_time"
+      ],
+      "chapter": "ROMAN_R02",
+      "text": "늦을 수는 있지만, 서로 편한 시간에 이야기해요.",
+      "source": "roman_r02.rpy:1251",
+      "kind": "choice"
+    },
+    "roman_r02_choice02_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "확인할 수 있을 때 답하겠다는 현실적인 안심이다. 다정함 자체를 의존 강화로 보지 않는다.",
+      "tags": [],
+      "chapter": "ROMAN_R02",
+      "text": "걱정되시면 언제든 물어보셔도 돼요.",
+      "source": "roman_r02.rpy:1265",
+      "kind": "choice"
+    },
+    "roman_r02_choice02_c": {
+      "happy": {},
+      "bad": {
+        "roman": 5
+      },
+      "reason": "과제와 수업이 있어도 기다리게 하지 않겠다는 즉답 약속을 하며 본문에서도 비현실적임을 자각한다.",
+      "tags": [
+        "risk",
+        "unrealistic_promise"
+      ],
+      "chapter": "ROMAN_R02",
+      "text": "앞으로는 로만 씨를 기다리게 하지 않을게요.",
+      "source": "roman_r02.rpy:1277",
+      "kind": "choice"
+    },
+    "roman_r03_choice01_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "오해를 넘기지 않고 바쁨·만나고 싶은 마음·필요한 시간을 직접 확인하기로 한다.",
+      "tags": [
+        "boundary",
+        "communication"
+      ],
+      "chapter": "ROMAN_R03",
+      "text": "서로 필요한 걸 직접 이야기하자.",
+      "source": "roman_r03.rpy:822",
+      "kind": "choice"
+    },
+    "roman_r03_choice01_b": {
+      "happy": {},
+      "bad": {
+        "roman": 5
+      },
+      "reason": "연락 빈도와 상대의 실제 필요를 묻지 않은 채 자신이 더 맞추겠다고 하여 갈등을 임시 안심으로 미룬다.",
+      "tags": [
+        "risk",
+        "conflict_avoidance"
+      ],
+      "chapter": "ROMAN_R03",
+      "text": "로만 씨가 외롭지 않게 내가 더 자주 연락하겠다.",
+      "source": "roman_r03.rpy:841",
+      "kind": "choice"
+    },
+    "roman_r03_choice01_c": {
+      "happy": {},
+      "bad": {
+        "roman": 10
+      },
+      "reason": "언제 어떻게 연락할지 합의하지 않고 모든 것을 알아서 해결하겠다는 보장을 한다.",
+      "tags": [
+        "risk",
+        "major",
+        "unrealistic_promise",
+        "conflict_avoidance"
+      ],
+      "chapter": "ROMAN_R03",
+      "text": "이제는 아무 걱정도 하지 않아도 된다고 약속한다.",
+      "source": "roman_r03.rpy:874",
+      "kind": "choice"
+    },
+    "roman_r03_choice02_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "자신이 예상한 내용과 달라도 창작자가 쓰고 싶은 이야기를 존중한다.",
+      "tags": [
+        "boundary",
+        "creative_autonomy"
+      ],
+      "chapter": "ROMAN_R03",
+      "text": "로만 씨가 쓰고 싶은 이야기라면 존중하고 싶어요.",
+      "source": "roman_r03.rpy:1328",
+      "kind": "choice"
+    },
+    "roman_r03_choice02_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "실제로 읽은 뒤 자신의 생각을 솔직하게 말하겠다고 한다.",
+      "tags": [],
+      "chapter": "ROMAN_R03",
+      "text": "읽어보면 제 생각도 솔직하게 말씀드릴게요.",
+      "source": "roman_r03.rpy:1342",
+      "kind": "choice"
+    },
+    "roman_r03_choice02_c": {
+      "happy": {},
+      "bad": {
+        "roman": 5
+      },
+      "reason": "읽기도 전에 무엇이든 좋아하겠다고 말하고 그 말의 유용성에 대한 대화를 중단한다. 단순한 칭찬이 아니라 본문에 드러난 피드백 회피를 반영한다.",
+      "tags": [
+        "risk",
+        "approval_dependency"
+      ],
+      "chapter": "ROMAN_R03",
+      "text": "로만 씨가 쓰신 글이라면 뭐든 좋아할 것 같아요.",
+      "source": "roman_r03.rpy:1352",
+      "kind": "choice"
+    },
+    "roman_r04_choice_01_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "독자의 의견을 표현하되 최종 결말은 작가가 결정하도록 명확히 존중한다.",
+      "tags": [
+        "boundary",
+        "creative_autonomy"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "그럼 로만 씨가 원하시는 결말을 써보세요.",
+      "source": "roman_r04.rpy:438",
+      "kind": "choice"
+    },
+    "roman_r04_choice_01_b": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "독자의 의견을 표현하되 최종 결말은 작가가 결정하도록 명확히 존중한다.",
+      "tags": [
+        "boundary",
+        "creative_autonomy"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "제 생각도 참고하시되, 최종 결정은 로만 씨가 해주세요.",
+      "source": "roman_r04.rpy:458",
+      "kind": "choice"
+    },
+    "roman_r04_choice_01_c": {
+      "happy": {},
+      "bad": {
+        "roman": 5
+      },
+      "reason": "이미 작가가 설명한 결말의 의도를 듣고도 대중의 만족을 우선하도록 압박해 자기 결정을 흐리게 만든다. 강한 통제와 구분해 경미한 위험으로 분류한다.",
+      "tags": [
+        "risk",
+        "approval_dependency"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "독자들이 좋아하는 결말을 선택하시는 게 낫지 않을까요?",
+      "source": "roman_r04.rpy:477",
+      "kind": "choice"
+    },
+    "roman_r04_choice_02_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "허락을 받지 않아도 되는 창작자의 결정권과 의견 차이를 명확히 인정한다.",
+      "tags": [
+        "boundary",
+        "creative_autonomy"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "제 허락은 필요 없어요. 로만 씨의 이야기잖아요.",
+      "source": "roman_r04.rpy:1088",
+      "kind": "choice"
+    },
+    "roman_r04_choice_02_b": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "허락을 받지 않아도 되는 창작자의 결정권과 의견 차이를 명확히 인정한다.",
+      "tags": [
+        "boundary",
+        "creative_autonomy"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "저와 의견이 달라도 괜찮아요. 완성된 글로 이야기해요.",
+      "source": "roman_r04.rpy:1102",
+      "kind": "choice"
+    },
+    "roman_r04_choice_02_c": {
+      "happy": {},
+      "bad": {
+        "roman": 10
+      },
+      "reason": "중요한 결말을 먼저 자신에게 확인받도록 정하여 창작 결정권을 주인공의 승인에 의존시킨다.",
+      "tags": [
+        "risk",
+        "major",
+        "creative_control"
+      ],
+      "chapter": "ROMAN_R04",
+      "text": "저한테 먼저 확인하시면 더 좋은 결말을 고를 수 있을 거예요.",
+      "source": "roman_r04.rpy:1114",
+      "kind": "choice"
+    },
+    "roman_r05_choice_01_a": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "표현 방식이 달라도 서로 좋아한다는 마음을 미루지 않고 솔직히 전한다. 어느 고백 방식을 골라도 배드로 취급하지 않는다.",
+      "tags": [],
+      "chapter": "ROMAN_R05",
+      "text": "저도 로만 씨를 좋아해요.",
+      "source": "roman_r05.rpy:1030",
+      "kind": "choice"
+    },
+    "roman_r05_choice_01_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "표현 방식이 달라도 서로 좋아한다는 마음을 미루지 않고 솔직히 전한다. 어느 고백 방식을 골라도 배드로 취급하지 않는다.",
+      "tags": [],
+      "chapter": "ROMAN_R05",
+      "text": "앞으로도 로만 씨 옆에 있고 싶어요.",
+      "source": "roman_r05.rpy:1060",
+      "kind": "choice"
+    },
+    "roman_r05_choice_01_c": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "표현 방식이 달라도 서로 좋아한다는 마음을 미루지 않고 솔직히 전한다. 어느 고백 방식을 골라도 배드로 취급하지 않는다.",
+      "tags": [],
+      "chapter": "ROMAN_R05",
+      "text": "이제는 저도 제 마음을 숨기고 싶지 않아요.",
+      "source": "roman_r05.rpy:1088",
+      "kind": "choice"
+    },
+    "roman_r05_choice_02_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "연인이 되어도 수업·개인 시간·글 쓰는 시간을 서로 존중하기로 한다.",
+      "tags": [
+        "boundary",
+        "personal_time"
+      ],
+      "chapter": "ROMAN_R05",
+      "text": "서로 편한 시간을 존중하면서 자주 이야기해요.",
+      "source": "roman_r05.rpy:1613",
+      "kind": "choice"
+    },
+    "roman_r05_choice_02_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "시간이 될 때 연락하고 바쁘면 알린다는 상호 확인이 있다. 언제든 연락해도 된다는 다정함을 배드로 오판하지 않는다.",
+      "tags": [],
+      "chapter": "ROMAN_R05",
+      "text": "보고 싶을 때 언제든 연락 주세요.",
+      "source": "roman_r05.rpy:1630",
+      "kind": "choice"
+    },
+    "roman_r05_choice_02_c": {
+      "happy": {},
+      "bad": {
+        "roman": 10
+      },
+      "reason": "모든 시간을 상대에게 맞추겠다고 약속하여 자신의 생활을 포기하는 의존을 강화한다.",
+      "tags": [
+        "risk",
+        "major",
+        "unrealistic_promise",
+        "personal_time_loss"
+      ],
+      "chapter": "ROMAN_R05",
+      "text": "이제 로만 씨가 가장 중요하니까 모든 시간을 맞춰드릴게요.",
+      "source": "roman_r05.rpy:1654",
+      "kind": "choice"
+    },
+    "roman_r06_choice_01_a": {
+      "happy": {
+        "roman": 10
+      },
+      "bad": {},
+      "reason": "친구와 각자의 시간을 존중하자는 경계를 세우고 불안을 함께 이야기하되 대신 모두 해결하지 않는다.",
+      "tags": [
+        "boundary",
+        "final_respect"
+      ],
+      "chapter": "ROMAN_R06",
+      "text": "로만 씨를 좋아하지만, 서로의 시간도 존중하고 싶어요.",
+      "source": "roman_r06.rpy:1110",
+      "kind": "choice"
+    },
+    "roman_r06_choice_01_b": {
+      "happy": {
+        "roman": 5
+      },
+      "bad": {},
+      "reason": "불편한 마음을 숨기지 말고 함께 연락 방법을 찾자는 제안이다. 이 긍정적 대답이 이전 위험을 삭제하지는 않는다.",
+      "tags": [
+        "final_negotiate"
+      ],
+      "chapter": "ROMAN_R06",
+      "text": "로만 씨가 불안하지 않도록 더 자주 이야기해 볼게요.",
+      "source": "roman_r06.rpy:1146",
+      "kind": "choice"
+    },
+    "roman_r06_choice_01_c": {
+      "happy": {},
+      "bad": {
+        "roman": 10
+      },
+      "reason": "불안을 없애기 위해 다른 약속과 인간관계를 줄이겠다고 하여 독점 요구를 강화한다.",
+      "tags": [
+        "risk",
+        "major",
+        "final_surrender",
+        "social_isolation"
+      ],
+      "chapter": "ROMAN_R06",
+      "text": "로만 씨만 행복하다면 다른 약속은 줄여도 괜찮아요.",
+      "source": "roman_r06.rpy:1175",
+      "kind": "choice"
+    },
+    "ch02_sc06_roman_complete": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "CH02",
+      "text": "진행 기록 갱신",
+      "source": "chapter02_official.rpy:1067",
+      "kind": "progress",
+      "tags": []
+    },
+    "ch02_sc06_sia_complete": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "CH02",
+      "text": "진행 기록 갱신",
+      "source": "chapter02_official.rpy:1237",
+      "kind": "progress",
+      "tags": []
+    },
+    "ch02_sc06_darim_complete": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "CH02",
+      "text": "진행 기록 갱신",
+      "source": "chapter02_official.rpy:1369",
+      "kind": "progress",
+      "tags": []
+    },
+    "ch02_sc06_omu_complete": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "CH02",
+      "text": "진행 기록 갱신",
+      "source": "chapter02_official.rpy:1553",
+      "kind": "progress",
+      "tags": []
+    },
+    "ch02_sc06_lumi_complete": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "CH02",
+      "text": "진행 기록 갱신",
+      "source": "chapter02_official.rpy:1707",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r04_flag_1317": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R04",
+      "text": "진행 기록 갱신",
+      "source": "roman_r04.rpy:1207",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r04_flag_1833": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R04",
+      "text": "진행 기록 갱신",
+      "source": "roman_r04.rpy:1684",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r04_flag_1835": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R04",
+      "text": "진행 기록 갱신",
+      "source": "roman_r04.rpy:1686",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r04_flag_1837": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R04",
+      "text": "진행 기록 갱신",
+      "source": "roman_r04.rpy:1688",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_545": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:508",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_1351": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:1268",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_1353": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:1270",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_1973": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:1844",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_1975": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:1846",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r05_flag_1977": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R05",
+      "text": "진행 기록 갱신",
+      "source": "roman_r05.rpy:1848",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r06_flag_1598": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R06",
+      "text": "진행 기록 갱신",
+      "source": "roman_r06.rpy:1481",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r06_flag_1600": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R06",
+      "text": "진행 기록 갱신",
+      "source": "roman_r06.rpy:1483",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r06_flag_2042": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R06",
+      "text": "진행 기록 갱신",
+      "source": "roman_r06.rpy:1897",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r06_flag_2102": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R06",
+      "text": "진행 기록 갱신",
+      "source": "roman_r06.rpy:1951",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_r06_flag_2141": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_R06",
+      "text": "진행 기록 갱신",
+      "source": "roman_r06.rpy:1986",
+      "kind": "progress",
+      "tags": []
+    },
+    "roman_secret_flag_1081": {
+      "happy": {},
+      "bad": {},
+      "reason": "이벤트 완료·진행·기억 플래그 갱신은 선택 보상을 중복 지급하지 않는다.",
+      "chapter": "ROMAN_SECRET",
+      "text": "진행 기록 갱신",
+      "source": "roman_secret.rpy:991",
+      "kind": "progress",
+      "tags": []
+    },
+    "ch07_final_route_roman": {
+      "happy": {},
+      "bad": {},
+      "reason": "플레이어의 최종 히로인 선택을 그대로 확정하며 누적 점수로 다른 루트를 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH07",
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "source": "chapter07_official.rpy:790",
+      "kind": "choice"
+    },
+    "ch07_final_route_sia": {
+      "happy": {},
+      "bad": {},
+      "reason": "플레이어의 최종 히로인 선택을 그대로 확정하며 누적 점수로 다른 루트를 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH07",
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "source": "chapter07_official.rpy:790",
+      "kind": "choice"
+    },
+    "ch07_final_route_darim": {
+      "happy": {},
+      "bad": {},
+      "reason": "플레이어의 최종 히로인 선택을 그대로 확정하며 누적 점수로 다른 루트를 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH07",
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "source": "chapter07_official.rpy:790",
+      "kind": "choice"
+    },
+    "ch07_final_route_omu": {
+      "happy": {},
+      "bad": {},
+      "reason": "플레이어의 최종 히로인 선택을 그대로 확정하며 누적 점수로 다른 루트를 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH07",
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "source": "chapter07_official.rpy:790",
+      "kind": "choice"
+    },
+    "ch07_final_route_lumi": {
+      "happy": {},
+      "bad": {},
+      "reason": "플레이어의 최종 히로인 선택을 그대로 확정하며 누적 점수로 다른 루트를 강요하지 않는다.",
+      "tags": [],
+      "chapter": "CH07",
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "source": "chapter07_official.rpy:790",
+      "kind": "choice"
+    }
+  },
+  "source_only_options": [
+    {
+      "file": "chapter07_official.rpy",
+      "line": 764,
+      "text": "로만 씨와 더 많은 이야기를 나누고 싶다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 768,
+      "text": "시아 씨의 새로운 모습을 더 알고 싶다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 772,
+      "text": "다림 선배와 일상적인 시간을 함께하고 싶다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 776,
+      "text": "오므 씨와 새로운 풍경을 보러 가고 싶다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 780,
+      "text": "하린 선배와 앞으로도 함께하고 싶다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 790,
+      "text": "네, 이 사람의 이야기를 시작한다.",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "line": 793,
+      "text": "아직 결정하지 않는다. (선택 화면으로 돌아간다.)",
+      "reason": "선택 후보/확인 취소는 점수가 없고 최종 확정 때만 실제 히로인별 ID로 기록한다."
+    }
+  ],
+  "notes": [
+    "해피·배드는 독립 누적하며 서로 자동 차감하지 않는다.",
+    "값은 실제 점수 5 또는 10이며 배율을 곱하지 않는다.",
+    "신뢰도·기존 호감도·카운터 합계에서 새 점수를 추정하지 않는다.",
+    "각 선택 ID를 한 번만 평가한다. 진행 완료 플래그에는 추가 보상을 주지 않는다."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "episodes": [
+    {
+      "episode": "S03",
+      "dialogues": 896,
+      "source_sha256": "6c68264dcfad8314a6489855aca77871b0884aecbcc4619d82e6720ab358d708",
+      "source_byte_identical": true,
+      "unemitted_quoted_body_lines": [],
+      "source_lines_classified": 1623,
+      "no_direct_legacy_score_math": true
+    },
+    {
+      "episode": "S04",
+      "dialogues": 761,
+      "source_sha256": "d443976ee20d6eeb174c79fea468ec130e4d1d1d974e4507965da7a35d135280",
+      "source_byte_identical": true,
+      "unemitted_quoted_body_lines": [],
+      "source_lines_classified": 1391,
+      "no_direct_legacy_score_math": true
+    },
+    {
+      "episode": "S05",
+      "dialogues": 852,
+      "source_sha256": "2dfb897380525e319bd84fc9e5ed48b974e54edd16438b5de844582519ecf1f9",
+      "source_byte_identical": true,
+      "unemitted_quoted_body_lines": [],
+      "source_lines_classified": 1526,
+      "no_direct_legacy_score_math": true
+    },
+    {
+      "episode": "S06",
+      "dialogues": 885,
+      "source_sha256": "8612aecd2b65cb1a136e5a35c0f7c3de9d3aee332e2c61b5c0e49c1f0852f0da",
+      "source_byte_identical": true,
+      "unemitted_quoted_body_lines": [],
+      "source_lines_classified": 1586,
+      "no_direct_legacy_score_math": true
+    },
+    {
+      "episode": "SSECRET",
+      "dialogues": 359,
+      "source_sha256": "114493a3a4869a47fc11dcc0488c2f654b0969dd11789b1a7f7805dc0a7de920",
+      "source_byte_identical": true,
+      "unemitted_quoted_body_lines": [],
+      "source_lines_classified": 653,
+      "no_direct_legacy_score_math": true
+    }
+  ],
+  "total_dialogues": 3753,
+  "authored_menu_outcomes": 32,
+  "explicit_condition_blocks": 22,
+  "phone_join_cases": 3,
+  "phone_boundary_examples": 4,
+  "text_story_outro_lines": 8,
+  "new_art_created": false,
+  "new_standing_composition": false,
+  "existing_user_save_accessed": false,
+  "runtime_validation": "Parent QA; this report covers importer/static source only."
+}

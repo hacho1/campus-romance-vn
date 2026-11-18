@@ -1,0 +1,177 @@
+{
+  "roman": {
+    "style_theme": "cream_sky",
+    "decoration_type": "book_and_paw",
+    "accent": "#5b7894",
+    "paper": "#fffdf2",
+    "photo_angle": -3,
+    "photo_caption": "천천히, 한 페이지씩.",
+    "hand_note": "이건…\n책갈피예요.",
+    "personality_note": "조심스러운 존댓말, 조금 느린 문장.\n친해지면 장난기가 많아져요.\n자주 하는 말은 “앗,,,!”",
+    "sticker_title": "책갈피 안쪽에는",
+    "sticker_text": "“재밌는 문장은… 같이 읽고 싶어요.”\n책 모양 스티커 뒤에 짧은 메모가 붙어 있다.",
+    "photo_text": "사진 찍는 날에는, 조금만 기다려 주세요.\n표정을 고르는 중이니까요.",
+    "photo_close": "기다려 주신 거, 기억해요.\n다음 사진은… 제가 먼저 웃어 볼게요.",
+    "secret_title": "아직 끝나지 않은 문장",
+    "secret_text": "“말을 고르고 있는 동안에도,\n같이 있어 주셨으면 좋겠어요.”\n\n책갈피를 덮기 전에, 마지막 줄을 한 번 더 읽었다.",
+    "unlock_condition": {
+      "min_affection": 10,
+      "chapter_secret": "roman_01"
+    },
+    "one_line": "조용하고 수줍지만,\n가까워지면 장난꾸러기가 돼요.",
+    "secret_notes": [
+      {
+        "title": "아직 끝나지 않은 문장",
+        "text": "“말을 고르고 있는 동안에도,\n같이 있어 주셨으면 좋겠어요.”\n\n책갈피를 덮기 전에, 마지막 줄을 한 번 더 읽었다."
+      },
+      {
+        "title": "다음 약속의 빈자리",
+        "text": "“다음 축제에도, 같은 자리에서 만나요.”\n\n한 번 더 만나자는 말이, 처음보다 조금 쉬워졌다."
+      },
+      {
+        "title": "마지막 장은 아직",
+        "text": "“마지막 장도 같이 넘겨 주세요.”\n\n다음 이야기는 우리가 더 가까워진 뒤에."
+      }
+    ]
+  },
+  "sia": {
+    "style_theme": "pink_comic",
+    "decoration_type": "speech_bubble",
+    "accent": "#9a527f",
+    "paper": "#fff6fb",
+    "photo_angle": 3,
+    "photo_caption": "이 페이지도 내 분량이지?",
+    "hand_note": "여기부터\n내 컷!",
+    "personality_note": "장난과 말이 많은 반말.\n입담이 좋아 대화가 늘 경쾌해요.\n자주 하는 말은 “응 아니야~”.",
+    "sticker_title": "말풍선 바깥의 대사",
+    "sticker_text": "“이건 떡밥이야. 회수는 내가 함.”\n말풍선 옆에 더 작은 말풍선이 그려져 있다.",
+    "photo_text": "흔들렸다고? 응 아니야~\n내가 움직여서 사진에 속도감이 생긴 거야.",
+    "photo_close": "웃는 사진 말고도 골라도 돼.\n네가 본 표정이면, 그것도 나잖아.",
+    "secret_title": "장난으로 쓰기엔 짧은 말",
+    "secret_text": "“다음 컷에도 너 있었으면 좋겠다.”\n\n농담 표시를 붙이려다가, 그냥 둔 문장 같다.",
+    "unlock_condition": {
+      "min_affection": 10,
+      "chapter_secret": "sia_01"
+    },
+    "one_line": "농담은 가볍게, 대답은 빠르게.\n“응 아니야~” 뒤의 말을 기다려 봐.",
+    "secret_notes": [
+      {
+        "title": "장난으로 쓰기엔 짧은 말",
+        "text": "“다음 컷에도 너 있었으면 좋겠다.”\n\n농담 표시를 붙이려다가, 그냥 둔 문장 같다."
+      },
+      {
+        "title": "다음 약속의 빈자리",
+        "text": "“다음 축제에도, 같은 자리에서 만나요.”\n\n한 번 더 만나자는 말이, 처음보다 조금 쉬워졌다."
+      },
+      {
+        "title": "마지막 장은 아직",
+        "text": "“마지막 장도 같이 넘겨 주세요.”\n\n다음 이야기는 우리가 더 가까워진 뒤에."
+      }
+    ]
+  },
+  "darim": {
+    "style_theme": "sage_ordered",
+    "decoration_type": "game_and_cat",
+    "accent": "#577a70",
+    "paper": "#f8fbf4",
+    "photo_angle": -1.5,
+    "photo_caption": "같이 채워 가는 일정표.",
+    "hand_note": "쉬는 시간도\n일정이에요.",
+    "personality_note": "차분한 존댓말. 재수 경험이 있어요.\n친해지면 장난과 작은 애교도 보여요.",
+    "sticker_title": "체크리스트의 빈칸",
+    "sticker_text": "할 일 옆에, ‘같이 게임하기’가 적혀 있다.\n고양이 스티커가 그 칸만 살짝 덮고 있다.",
+    "photo_text": "사진은 여기 붙이면 될까요?\n한 장 더 남겨 두면 좋겠네요.",
+    "photo_close": "반듯하게 정리하지 않은 사진도 괜찮겠어요.\n같이 찍은 거라면요.",
+    "secret_title": "한 칸쯤 비워 두어도",
+    "secret_text": "“오늘은 제가 먼저 부탁해도 될까요?\n잠깐만, 같이 쉬어요.”\n\n완료 표시 대신 작은 동그라미가 그려져 있다.",
+    "unlock_condition": {
+      "min_affection": 10,
+      "chapter_secret": "darim_01"
+    },
+    "one_line": "차분한 존댓말 속 작은 장난.\n친해지면 애교도 조금 보여요.",
+    "secret_notes": [
+      {
+        "title": "한 칸쯤 비워 두어도",
+        "text": "“오늘은 제가 먼저 부탁해도 될까요?\n잠깐만, 같이 쉬어요.”\n\n완료 표시 대신 작은 동그라미가 그려져 있다."
+      },
+      {
+        "title": "다음 약속의 빈자리",
+        "text": "“다음 축제에도, 같은 자리에서 만나요.”\n\n한 번 더 만나자는 말이, 처음보다 조금 쉬워졌다."
+      },
+      {
+        "title": "마지막 장은 아직",
+        "text": "“마지막 장도 같이 넘겨 주세요.”\n\n다음 이야기는 우리가 더 가까워진 뒤에."
+      }
+    ]
+  },
+  "omu": {
+    "style_theme": "film_blue",
+    "decoration_type": "camera_ticket",
+    "accent": "#476c7a",
+    "paper": "#f3f9fb",
+    "photo_angle": -4,
+    "photo_caption": "오늘 빛, 나쁘지 않네.",
+    "hand_note": "가만있어 봐.\n지금 좋다.",
+    "personality_note": "사진과 영화를 좋아하는 부산 말투.\n본인은 서울말을 쓴다고 생각해요.",
+    "sticker_title": "영화표 뒤의 메모",
+    "sticker_text": "“다 보고 나서 얘기하자.\n엔딩 크레딧까지.”\n날짜가 없는 영화표에 메모가 남아 있다.",
+    "photo_text": "마음에 드는 사진 생기면 말해라.\n허락도 안 받고 찍지는 않을게.",
+    "photo_close": "니가 고른 사진도 보고 싶다.\n같은 날을 봐도, 다르게 남길 거 아이가.",
+    "secret_title": "프레임 밖에도 남는 것",
+    "secret_text": "“사진에 안 나왔다고,\n같이 없었던 건 아니잖아.”\n\n사진 모서리에 접힌 자국이 남아 있다.",
+    "unlock_condition": {
+      "min_affection": 10,
+      "chapter_secret": "omu_01"
+    },
+    "one_line": "부산 말투에 사진 한 장.\n본인은 서울말을 쓰고 있대요.",
+    "secret_notes": [
+      {
+        "title": "프레임 밖에도 남는 것",
+        "text": "“사진에 안 나왔다고,\n같이 없었던 건 아니잖아.”\n\n사진 모서리에 접힌 자국이 남아 있다."
+      },
+      {
+        "title": "다음 약속의 빈자리",
+        "text": "“다음 축제에도, 같은 자리에서 만나요.”\n\n한 번 더 만나자는 말이, 처음보다 조금 쉬워졌다."
+      },
+      {
+        "title": "마지막 장은 아직",
+        "text": "“마지막 장도 같이 넘겨 주세요.”\n\n다음 이야기는 우리가 더 가까워진 뒤에."
+      }
+    ]
+  },
+  "lumi": {
+    "style_theme": "blue_geometry",
+    "decoration_type": "ruler_shapes",
+    "accent": "#5a698d",
+    "paper": "#f7f8ff",
+    "photo_angle": 0,
+    "photo_caption": "계획에 없던 한 장.",
+    "hand_note": "여백은\n남겨 둡니다.",
+    "personality_note": "능글맞지만 절제된 반존대.\n친해질수록 오히려 부끄러워져요.",
+    "sticker_title": "작은 도면의 여백",
+    "sticker_text": "정확한 사각형 옆에, 자로 그리지 않은 선.\n“여기는 비워 둘게. 나중에 같이 정하죠.”",
+    "photo_text": "사진도 수평 맞춰서 붙이는 편이에요.\n이 정도는… 취향이라고 해 두죠.",
+    "photo_close": "조금 기울어도 괜찮아.\n네가 붙여 준 거니까. …이건 메모하지 마요.",
+    "secret_title": "완벽하지 않은 자리",
+    "secret_text": "“계획대로 되지 않아서,\n오히려 지우고 싶지 않은 것도 있네.”\n\n수정선 없이 남아 있는 첫 문장이다.",
+    "unlock_condition": {
+      "min_affection": 10,
+      "chapter_secret": "lumi_01"
+    },
+    "one_line": "반듯하고 여유로운 반존대.\n가까워질수록 오히려 수줍어져요.",
+    "secret_notes": [
+      {
+        "title": "완벽하지 않은 자리",
+        "text": "“계획대로 되지 않아서,\n오히려 지우고 싶지 않은 것도 있네.”\n\n수정선 없이 남아 있는 첫 문장이다."
+      },
+      {
+        "title": "다음 약속의 빈자리",
+        "text": "“다음 축제에도, 같은 자리에서 만나요.”\n\n한 번 더 만나자는 말이, 처음보다 조금 쉬워졌다."
+      },
+      {
+        "title": "마지막 장은 아직",
+        "text": "“마지막 장도 같이 넘겨 주세요.”\n\n다음 이야기는 우리가 더 가까워진 뒤에."
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "CH06": {
+    "source_hash_matches": true,
+    "source_mapped_say_parity": 1223,
+    "unique_source_lines": true,
+    "parsed_python_statements": 85,
+    "unique_labels": 16,
+    "all_jump_targets_exist": true,
+    "all_flags_have_defaults": true,
+    "standing_sd_ld_show_calls": 0,
+    "production_sha256": "b644e4de81e41fcf63798e33c267e97ad8b76cdaa48762ec8b6eea7022df2263",
+    "group_title_uses_actual_thread": true
+  },
+  "CH07": {
+    "source_hash_matches": true,
+    "source_mapped_say_parity": 870,
+    "unique_source_lines": true,
+    "parsed_python_statements": 102,
+    "unique_labels": 15,
+    "all_jump_targets_exist": true,
+    "all_flags_have_defaults": true,
+    "standing_sd_ld_show_calls": 0,
+    "production_sha256": "d025ba5700f947f18d72a16bccca2f5b54dc32058819ff3d3b3229f74c5ed2b2",
+    "group_title_uses_actual_thread": true
+  },
+  "chapter06_sia_duplicate": {
+    "header_line": 1543,
+    "first_header_line": 1214,
+    "last_line": 1871,
+    "exact_nonempty_duplicate": true
+  },
+  "darim_supplement": {
+    "source": "D:\\CampusRomance_VN\\design_docs\\story_sources\\chapter06_darim.txt",
+    "sha256": "70549a88cc7ec7582d5c7584b627ebf86ceefbbcf0e9a571d4cb427167b95d1c"
+  },
+  "darim_source_mapped_dialogues": 105,
+  "final_confirmation_commit_only": true
+}

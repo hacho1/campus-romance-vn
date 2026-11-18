@@ -1,0 +1,186 @@
+{
+  "result": "PASS",
+  "episodes": 34,
+  "unchanged_prior_route_files": 34,
+  "prior_route_hash_mismatches": [],
+  "cues": {
+    "CH01": {
+      "statements": 15,
+      "registered_cues": 15,
+      "dialogue_unchanged": true
+    },
+    "CH02": {
+      "statements": 15,
+      "registered_cues": 15,
+      "dialogue_unchanged": true
+    },
+    "CH03": {
+      "statements": 15,
+      "registered_cues": 15,
+      "dialogue_unchanged": true
+    },
+    "CH04": {
+      "statements": 24,
+      "registered_cues": 24,
+      "dialogue_unchanged": true
+    },
+    "CH05": {
+      "statements": 18,
+      "registered_cues": 18,
+      "dialogue_unchanged": true
+    },
+    "CH06": {
+      "statements": 35,
+      "registered_cues": 35,
+      "dialogue_unchanged": true
+    },
+    "CH07": {
+      "statements": 27,
+      "registered_cues": 27,
+      "dialogue_unchanged": true
+    },
+    "R01": {
+      "statements": 19,
+      "registered_cues": 19,
+      "dialogue_unchanged": true
+    },
+    "R02": {
+      "statements": 19,
+      "registered_cues": 19,
+      "dialogue_unchanged": true
+    },
+    "R03": {
+      "statements": 15,
+      "registered_cues": 12,
+      "dialogue_unchanged": true
+    },
+    "R04": {
+      "statements": 24,
+      "registered_cues": 21,
+      "dialogue_unchanged": true
+    },
+    "R05": {
+      "statements": 13,
+      "registered_cues": 12,
+      "dialogue_unchanged": true
+    },
+    "R06": {
+      "statements": 19,
+      "registered_cues": 19,
+      "dialogue_unchanged": true
+    },
+    "SECRET": {
+      "statements": 7,
+      "registered_cues": 7,
+      "dialogue_unchanged": true
+    },
+    "S01": {
+      "statements": 16,
+      "registered_cues": 15,
+      "dialogue_unchanged": true
+    },
+    "S02": {
+      "statements": 20,
+      "registered_cues": 19,
+      "dialogue_unchanged": true
+    },
+    "S03": {
+      "statements": 21,
+      "registered_cues": 20,
+      "dialogue_unchanged": true
+    },
+    "S04": {
+      "statements": 25,
+      "registered_cues": 18,
+      "dialogue_unchanged": true
+    },
+    "S05": {
+      "statements": 27,
+      "registered_cues": 21,
+      "dialogue_unchanged": true
+    },
+    "S06": {
+      "statements": 29,
+      "registered_cues": 25,
+      "dialogue_unchanged": true
+    },
+    "SSECRET": {
+      "statements": 11,
+      "registered_cues": 11,
+      "dialogue_unchanged": true
+    },
+    "O01": {
+      "statements": 19,
+      "registered_cues": 18,
+      "dialogue_unchanged": true
+    },
+    "O02": {
+      "statements": 23,
+      "registered_cues": 22,
+      "dialogue_unchanged": true
+    },
+    "O03": {
+      "statements": 23,
+      "registered_cues": 20,
+      "dialogue_unchanged": true
+    },
+    "O04": {
+      "statements": 20,
+      "registered_cues": 17,
+      "dialogue_unchanged": true
+    },
+    "O05": {
+      "statements": 23,
+      "registered_cues": 20,
+      "dialogue_unchanged": true
+    },
+    "O06": {
+      "statements": 30,
+      "registered_cues": 27,
+      "dialogue_unchanged": true
+    },
+    "OSECRET": {
+      "statements": 15,
+      "registered_cues": 15,
+      "dialogue_unchanged": true
+    },
+    "D01": {
+      "statements": 18,
+      "registered_cues": 17,
+      "dialogue_unchanged": true
+    },
+    "D02": {
+      "statements": 21,
+      "registered_cues": 20,
+      "dialogue_unchanged": true
+    },
+    "D03": {
+      "statements": 22,
+      "registered_cues": 20,
+      "dialogue_unchanged": true
+    },
+    "D04": {
+      "statements": 19,
+      "registered_cues": 18,
+      "dialogue_unchanged": true
+    },
+    "D05": {
+      "statements": 24,
+      "registered_cues": 19,
+      "dialogue_unchanged": true
+    },
+    "D06": {
+      "statements": 32,
+      "registered_cues": 28,
+      "dialogue_unchanged": true
+    }
+  },
+  "note": "Phone dates are authored story labels; ordinals preserve day separation, not a real calendar. Missing time-of-day clocks are staging defaults.",
+  "same_day_branch_correction": {
+    "status": "PASS",
+    "sc04_sc05_shared_day_id": "darim_after_presentation",
+    "h05_time": "17:40",
+    "b05_time": "21:00",
+    "all_40_route_files_byte_unchanged": true
+  }
+}

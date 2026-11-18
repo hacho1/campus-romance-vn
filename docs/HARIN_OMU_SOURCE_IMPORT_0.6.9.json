@@ -1,0 +1,53 @@
+{
+  "backup": "D:\\CampusRomance_VN\\backups\\harin_omu_story_20261112_200841",
+  "manuscripts": [
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 R01 스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h01.txt",
+      "sha256": "87a1ae0508f282b85aa690546759574e44b210bd85c615f4a600b74f12ca94ca",
+      "bytes": 41262
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 r02 스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h02.txt",
+      "sha256": "f0dc258928e7bbfed40ebb0761746d9c6b6a4d8f7b42216ef13df57f7c21f6e1",
+      "bytes": 43829
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 r03 스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h03.txt",
+      "sha256": "5735b77c8cf0afd870cd1640fce44eeeed6e0b73105d600a2502a7fab30bb7af",
+      "bytes": 49829
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 R04 스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h04.txt",
+      "sha256": "c3d6ee7bcf734400a74b030a61d18b0e172c63538ab2e739c0b96af6dde8398a",
+      "bytes": 51870
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 R05 스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h05.txt",
+      "sha256": "8b3dfcc0f104f86b77c8e82d741b658e30f22e6f88059d3fd60c4f9ba53aed29",
+      "bytes": 52865
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 R06스토리.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_h06.txt",
+      "sha256": "89883906ffa83a62c2a56c538a790c8267e3cd78fb20aeaa412fb1a1733b1809",
+      "bytes": 39763
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\하린 루트 스토리\\하린 시크렛 엔딩.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\harin_secret.txt",
+      "sha256": "0c4ff96a71bf771272d48c537a8dc26fca55b3d3203a0d190c096826d786f93c",
+      "bytes": 17922
+    },
+    {
+      "source": "C:\\Users\\wooheewon\\OneDrive\\바탕 화면\\필요한 자료\\스토리 대본\\오므 루트 스토리\\오므 배드엔딩 수정.txt",
+      "copy": "D:\\CampusRomance_VN\\design_docs\\story_sources\\omu_bad_revision_069.txt",
+      "sha256": "058521931c8fa95ff62db2761559887211fba274f376602fb42ffe509d21fd8f",
+      "bytes": 56244
+    }
+  ]
+}

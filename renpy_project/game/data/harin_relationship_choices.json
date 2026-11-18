@@ -1,0 +1,540 @@
+{
+  "schema": 2,
+  "unit": 5,
+  "choices": {
+    "harin_h01_choice01_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 왜 이렇게 만들고 싶으셨는지 궁금해요.",
+      "chapter": "H01",
+      "text": "선배가 왜 이렇게 만들고 싶으셨는지 궁금해요.",
+      "source_line": 618
+    },
+    "harin_h01_choice01_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 완성되지 않았어도 재미있는 공간이에요.",
+      "chapter": "H01",
+      "text": "완성되지 않았어도 재미있는 공간이에요.",
+      "source_line": 659
+    },
+    "harin_h01_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 5
+      },
+      "reason": "원고의 배드 선택: 선배답지 않게 조금 어수선하네요. 반듯한 모형이 더 어울리세요.",
+      "chapter": "H01",
+      "text": "선배답지 않게 조금 어수선하네요. 반듯한 모형이 더 어울리세요.",
+      "source_line": 684
+    },
+    "harin_h01_choice02_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 새로운 모습을 알게 돼서 좋아요.",
+      "chapter": "H01",
+      "text": "새로운 모습을 알게 돼서 좋아요.",
+      "source_line": 1177
+    },
+    "harin_h01_choice02_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 좋아하시는 거라면 어떤 건지 더 알고 싶어요.",
+      "chapter": "H01",
+      "text": "선배가 좋아하시는 거라면 어떤 건지 더 알고 싶어요.",
+      "source_line": 1214
+    },
+    "harin_h01_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 역시 차분하고 단정한 선배가 더 좋아요.",
+      "chapter": "H01",
+      "text": "저는 역시 차분하고 단정한 선배가 더 좋아요.",
+      "source_line": 1257
+    },
+    "harin_h02_choice01_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 속상하시겠어요. 잠깐 쉬었다 다시 볼까요?",
+      "chapter": "H02",
+      "text": "속상하시겠어요. 잠깐 쉬었다 다시 볼까요?",
+      "source_line": 634
+    },
+    "harin_h02_choice01_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 어디가 손상됐는지 같이 확인해 드릴까요?",
+      "chapter": "H02",
+      "text": "어디가 손상됐는지 같이 확인해 드릴까요?",
+      "source_line": 659
+    },
+    "harin_h02_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 선배답지 않네요. 이렇게 실수하시는 모습은 처음 봐요.",
+      "chapter": "H02",
+      "text": "선배답지 않네요. 이렇게 실수하시는 모습은 처음 봐요.",
+      "source_line": 688
+    },
+    "harin_h02_choice02_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 잘하는 모습도 좋지만, 선배가 솔직하게 이야기해 주셔서 더 좋아요.",
+      "chapter": "H02",
+      "text": "잘하는 모습도 좋지만, 선배가 솔직하게 이야기해 주셔서 더 좋아요.",
+      "source_line": 1135
+    },
+    "harin_h02_choice02_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 실수하신 날에도 같이 있고 싶어요.",
+      "chapter": "H02",
+      "text": "실수하신 날에도 같이 있고 싶어요.",
+      "source_line": 1163
+    },
+    "harin_h02_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 선배가 언제나 차분한 모습이면 좋겠어요.",
+      "chapter": "H02",
+      "text": "저는 선배가 언제나 차분한 모습이면 좋겠어요.",
+      "source_line": 1202
+    },
+    "harin_h02_choice03_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 비교해보신 뒤 정하시면, 저는 사용하기 편한지 의견을 드릴게요.",
+      "chapter": "H02",
+      "text": "선배가 비교해보신 뒤 정하시면, 저는 사용하기 편한지 의견을 드릴게요.",
+      "source_line": 1739
+    },
+    "harin_h02_choice03_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 꼭 원래 모습으로 되돌릴 필요는 없겠네요.",
+      "chapter": "H02",
+      "text": "꼭 원래 모습으로 되돌릴 필요는 없겠네요.",
+      "source_line": 1761
+    },
+    "harin_h02_choice03_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 5
+      },
+      "reason": "원고의 배드 선택: 역시 원래처럼 완벽하게 만드시는 게 하린 선배답죠.",
+      "chapter": "H02",
+      "text": "역시 원래처럼 완벽하게 만드시는 게 하린 선배답죠.",
+      "source_line": 1783
+    },
+    "harin_h03_choice01_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 완성된 작품도 멋지지만, 수정해 오신 과정이 더 인상적이에요.",
+      "chapter": "H03",
+      "text": "완성된 작품도 멋지지만, 수정해 오신 과정이 더 인상적이에요.",
+      "source_line": 440
+    },
+    "harin_h03_choice01_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 새로운 구조를 직접 선택하신 게 멋져요.",
+      "chapter": "H03",
+      "text": "새로운 구조를 직접 선택하신 게 멋져요.",
+      "source_line": 472
+    },
+    "harin_h03_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 5
+      },
+      "reason": "원고의 배드 선택: 이제 완벽하게 완성하셨으니, 지난번 실수는 잊으셔도 되겠네요.",
+      "chapter": "H03",
+      "text": "이제 완벽하게 완성하셨으니, 지난번 실수는 잊으셔도 되겠네요.",
+      "source_line": 498
+    },
+    "harin_h03_choice02_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 아직 모르는 모습까지 천천히 알아가고 싶은 사람이에요.",
+      "chapter": "H03",
+      "text": "아직 모르는 모습까지 천천히 알아가고 싶은 사람이에요.",
+      "source_line": 1307
+    },
+    "harin_h03_choice02_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 완벽하지 않은 모습을 보여주셔도 함께 있고 싶은 사람이에요.",
+      "chapter": "H03",
+      "text": "완벽하지 않은 모습을 보여주셔도 함께 있고 싶은 사람이에요.",
+      "source_line": 1342
+    },
+    "harin_h03_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저에게는 언제나 차분하고 완벽한 선배였으면 좋겠어요.",
+      "chapter": "H03",
+      "text": "저에게는 언제나 차분하고 완벽한 선배였으면 좋겠어요.",
+      "source_line": 1380
+    },
+    "harin_h03_choice03_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 저도 하린 선배를 좋아해요.",
+      "chapter": "H03",
+      "text": "저도 하린 선배를 좋아해요.",
+      "source_line": 1676
+    },
+    "harin_h03_choice03_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배의 아직 모르는 모습까지 함께 알아가고 싶어요.",
+      "chapter": "H03",
+      "text": "선배의 아직 모르는 모습까지 함께 알아가고 싶어요.",
+      "source_line": 1712
+    },
+    "harin_h03_choice03_c": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 앞으로도 선배와 특별하지 않은 하루를 함께 보내고 싶어요.",
+      "chapter": "H03",
+      "text": "앞으로도 선배와 특별하지 않은 하루를 함께 보내고 싶어요.",
+      "source_line": 1755
+    },
+    "harin_h04_choice01_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 이렇게 즐거워하시니까 저도 좋아요.",
+      "chapter": "H04",
+      "text": "선배가 이렇게 즐거워하시니까 저도 좋아요.",
+      "source_line": 543
+    },
+    "harin_h04_choice01_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배에게 이런 모습도 있다는 걸 알게 돼서 재미있어요.",
+      "chapter": "H04",
+      "text": "선배에게 이런 모습도 있다는 걸 알게 돼서 재미있어요.",
+      "source_line": 578
+    },
+    "harin_h04_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 5
+      },
+      "reason": "원고의 배드 선택: 선배는 이렇게 크게 웃는 것보다 조용히 미소 지으실 때가 더 어울리세요.",
+      "chapter": "H04",
+      "text": "선배는 이렇게 크게 웃는 것보다 조용히 미소 지으실 때가 더 어울리세요.",
+      "source_line": 603
+    },
+    "harin_h04_choice02_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 중요하게 생각하시는 수정 과정을 넣으세요.",
+      "chapter": "H04",
+      "text": "선배가 중요하게 생각하시는 수정 과정을 넣으세요.",
+      "source_line": 1090
+    },
+    "harin_h04_choice02_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 두 가지 설명을 비교해 보시겠어요? 최종 선택은 선배가 하시면 되고요.",
+      "chapter": "H04",
+      "text": "두 가지 설명을 비교해 보시겠어요? 최종 선택은 선배가 하시면 되고요.",
+      "source_line": 1118
+    },
+    "harin_h04_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 실패한 과정은 빼는 게 좋겠어요. 선배는 완벽한 이미지가 더 어울리니까요.",
+      "chapter": "H04",
+      "text": "실패한 과정은 빼는 게 좋겠어요. 선배는 완벽한 이미지가 더 어울리니까요.",
+      "source_line": 1140
+    },
+    "harin_h04_choice03_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제가 선배를 한 가지 모습으로만 보고 있었던 것 같아요.",
+      "chapter": "H04",
+      "text": "제가 선배를 한 가지 모습으로만 보고 있었던 것 같아요.",
+      "source_line": 1777
+    },
+    "harin_h04_choice03_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제가 좋아하는 모습과 선배가 좋아하는 모습이 달라도 괜찮아요.",
+      "chapter": "H04",
+      "text": "제가 좋아하는 모습과 선배가 좋아하는 모습이 달라도 괜찮아요.",
+      "source_line": 1816
+    },
+    "harin_h04_choice03_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 처음 좋아했던 모습이 변하지 않으셨으면 좋겠어요.",
+      "chapter": "H04",
+      "text": "저는 처음 좋아했던 모습이 변하지 않으셨으면 좋겠어요.",
+      "source_line": 1849
+    },
+    "harin_h04_choice03_d": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 선배는 원래 그런 분이셨잖아요. 왜 갑자기 다르게 행동하시려는 거예요?",
+      "chapter": "H04",
+      "text": "선배는 원래 그런 분이셨잖아요. 왜 갑자기 다르게 행동하시려는 거예요?",
+      "source_line": 1913
+    },
+    "harin_h05_choice01_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 저는 두 번째가 흥미로워요. 선배가 왜 좋아하시는지도 알 것 같아요.",
+      "chapter": "H05",
+      "text": "저는 두 번째가 흥미로워요. 선배가 왜 좋아하시는지도 알 것 같아요.",
+      "source_line": 655
+    },
+    "harin_h05_choice01_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 저는 첫 번째가 더 취향이지만, 선배가 도전하고 싶은 건 두 번째군요.",
+      "chapter": "H05",
+      "text": "저는 첫 번째가 더 취향이지만, 선배가 도전하고 싶은 건 두 번째군요.",
+      "source_line": 686
+    },
+    "harin_h05_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 단정한 설계가 훨씬 선배답다고 생각해요. 두 번째는 어울리지 않아요.",
+      "chapter": "H05",
+      "text": "저는 단정한 설계가 훨씬 선배답다고 생각해요. 두 번째는 어울리지 않아요.",
+      "source_line": 720
+    },
+    "harin_h05_choice02_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제가 좋아하는 모습만 선배의 전부라고 생각했어요.",
+      "chapter": "H05",
+      "text": "제가 좋아하는 모습만 선배의 전부라고 생각했어요.",
+      "source_line": 1630
+    },
+    "harin_h05_choice02_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제가 선호하는 것과 선배가 원하는 것이 달라도 괜찮아요.",
+      "chapter": "H05",
+      "text": "제가 선호하는 것과 선배가 원하는 것이 달라도 괜찮아요.",
+      "source_line": 1669
+    },
+    "harin_h05_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 처음 좋아했던 하린 선배의 모습이 그대로였으면 좋겠어요.",
+      "chapter": "H05",
+      "text": "저는 처음 좋아했던 하린 선배의 모습이 그대로였으면 좋겠어요.",
+      "source_line": 1699
+    },
+    "harin_h05_choice02_d": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저를 좋아하신다면 제가 좋아하는 모습도 조금 더 보여주실 수 있잖아요.",
+      "chapter": "H05",
+      "text": "저를 좋아하신다면 제가 좋아하는 모습도 조금 더 보여주실 수 있잖아요.",
+      "source_line": 1766
+    },
+    "harin_h05_choice03_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 이번 작품에서 가장 중요하게 생각하신 게 무엇인지 듣고 싶어요.",
+      "chapter": "H05",
+      "text": "선배가 이번 작품에서 가장 중요하게 생각하신 게 무엇인지 듣고 싶어요.",
+      "source_line": 2172
+    },
+    "harin_h05_choice03_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 발표가 끝났으니 이제 선배가 하고 싶은 걸 하면서 쉬어요.",
+      "chapter": "H05",
+      "text": "발표가 끝났으니 이제 선배가 하고 싶은 걸 하면서 쉬어요.",
+      "source_line": 2197
+    },
+    "harin_h05_choice03_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 5
+      },
+      "reason": "원고의 배드 선택: 역시 정돈된 설계가 선배에게 가장 잘 어울려요.",
+      "chapter": "H05",
+      "text": "역시 정돈된 설계가 선배에게 가장 잘 어울려요.",
+      "source_line": 2219
+    },
+    "harin_h06_choice01_a": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 선배가 이 공간을 좋아하시는 이유를 조금 더 이해하고 싶어요.",
+      "chapter": "H06",
+      "text": "선배가 이 공간을 좋아하시는 이유를 조금 더 이해하고 싶어요.",
+      "source_line": 454
+    },
+    "harin_h06_choice01_b": {
+      "happy": {
+        "lumi": 5
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제 취향과는 조금 다르지만, 선배다운 생각이 담긴 작품 같아요.",
+      "chapter": "H06",
+      "text": "제 취향과는 조금 다르지만, 선배다운 생각이 담긴 작품 같아요.",
+      "source_line": 484
+    },
+    "harin_h06_choice01_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 이제는 조금 더 정돈된 작품을 만드시는 게 좋겠어요. 그게 제가 좋아하는 선배니까요.",
+      "chapter": "H06",
+      "text": "이제는 조금 더 정돈된 작품을 만드시는 게 좋겠어요. 그게 제가 좋아하는 선배니까요.",
+      "source_line": 513
+    },
+    "harin_h06_choice02_a": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 제가 상상한 모습이 아니라, 하린 선배를 더 알아가고 싶어요.",
+      "chapter": "H06",
+      "text": "제가 상상한 모습이 아니라, 하린 선배를 더 알아가고 싶어요.",
+      "source_line": 878
+    },
+    "harin_h06_choice02_b": {
+      "happy": {
+        "lumi": 10
+      },
+      "bad": {},
+      "reason": "원고의 해피 선택: 저희 취향이 달라도 괜찮아요. 서로 솔직하게 이야기해요.",
+      "chapter": "H06",
+      "text": "저희 취향이 달라도 괜찮아요. 서로 솔직하게 이야기해요.",
+      "source_line": 907
+    },
+    "harin_h06_choice02_c": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저는 처음 좋아했던 차분하고 완벽한 선배가 가장 좋아요.",
+      "chapter": "H06",
+      "text": "저는 처음 좋아했던 차분하고 완벽한 선배가 가장 좋아요.",
+      "source_line": 939
+    },
+    "harin_h06_choice02_d": {
+      "happy": {},
+      "bad": {
+        "lumi": 10
+      },
+      "reason": "원고의 배드 선택: 저를 사랑하신다면 제가 좋아하는 모습도 유지해 주셨으면 좋겠어요.",
+      "chapter": "H06",
+      "text": "저를 사랑하신다면 제가 좋아하는 모습도 유지해 주셨으면 좋겠어요.",
+      "source_line": 995
+    },
+    "harin_secret_choice01_a": {
+      "happy": {},
+      "bad": {},
+      "reason": "원고의 무점수 선택: 네. 오늘 모습도 정말 좋아요.",
+      "chapter": "HSECRET",
+      "text": "네. 오늘 모습도 정말 좋아요.",
+      "source_line": 611
+    },
+    "harin_secret_choice01_b": {
+      "happy": {},
+      "bad": {},
+      "reason": "원고의 무점수 선택: 어떤 모습이든 하린 씨라서 좋아요.",
+      "chapter": "HSECRET",
+      "text": "어떤 모습이든 하린 씨라서 좋아요.",
+      "source_line": 630
+    },
+    "harin_secret_choice01_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "원고의 무점수 선택: 선배가 저를 놀리려고 준비하신 모습이라면 더 좋죠.",
+      "chapter": "HSECRET",
+      "text": "선배가 저를 놀리려고 준비하신 모습이라면 더 좋죠.",
+      "source_line": 658
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "roman": {
+    "title": "말하지 못한 문장",
+    "label": "route_roman",
+    "implemented": true,
+    "min_affection": 30
+  },
+  "sia": {
+    "title": "장난 아니거든?",
+    "label": "route_sia",
+    "implemented": true,
+    "min_affection": 30,
+    "available_through": "S06",
+    "complete": true
+  },
+  "darim": {
+    "title": "선배도 기대고 싶어요",
+    "label": "route_darim",
+    "implemented": true,
+    "min_affection": 30,
+    "complete": true,
+    "available_through": "D06"
+  },
+  "omu": {
+    "title": "네가 찍힌 풍경",
+    "label": "route_omu",
+    "implemented": true,
+    "min_affection": 30,
+    "available_through": "O06",
+    "complete": true
+  },
+  "lumi": {
+    "title": "완벽하지 않은 설계도",
+    "label": "route_lumi",
+    "implemented": true,
+    "min_affection": 30,
+    "complete": true,
+    "available_through": "H06"
+  }
+}

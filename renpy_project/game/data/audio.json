@@ -1,0 +1,783 @@
+{
+  "main": {
+    "files": [
+      "audio/bgm/main.ogg",
+      "audio/bgm/main.mp3",
+      "audio/bgm/main.wav"
+    ],
+    "status": "official_suno_download",
+    "source_url": "https://suno.com/song/dc9ab118-55b0-465e-9fbc-c31a5a5dbccf",
+    "duration_seconds": 26.96,
+    "loop_edited": false
+  },
+  "daily": {
+    "files": [
+      "audio/bgm/daily.ogg",
+      "audio/bgm/daily.mp3",
+      "audio/bgm/daily.wav",
+      "audio/bgm/campus_day.ogg",
+      "audio/bgm/campus_day.mp3",
+      "audio/bgm/campus_day.wav"
+    ],
+    "status": "available_via_official_suno_alias",
+    "fallback_track": "campus_day",
+    "source_url": "https://suno.com/song/fd8d3989-339a-4254-8104-4fe1bd4d88d6",
+    "duration_seconds": 84.427271,
+    "loop_edited": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false
+  },
+  "comedy": {
+    "files": [
+      "audio/bgm/comedy.ogg",
+      "audio/bgm/comedy.mp3",
+      "audio/bgm/comedy.wav",
+      "audio/bgm/comedy_light.ogg",
+      "audio/bgm/comedy_light.mp3",
+      "audio/bgm/comedy_light.wav"
+    ],
+    "status": "available_via_official_suno_alias",
+    "fallback_track": "comedy_light",
+    "source_url": "https://suno.com/song/81ff79ee-dd77-49c8-b88a-b37642677c11",
+    "duration_seconds": 86.694729,
+    "loop_edited": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false
+  },
+  "romantic": {
+    "files": [
+      "audio/bgm/romantic.ogg",
+      "audio/bgm/romantic.mp3",
+      "audio/bgm/romantic.wav",
+      "audio/bgm/romantic_night.ogg",
+      "audio/bgm/romantic_night.mp3",
+      "audio/bgm/romantic_night.wav"
+    ],
+    "status": "available_via_official_suno_alias",
+    "fallback_track": "romantic_night",
+    "source_url": "https://suno.com/song/b554f6c2-f72d-4f05-b923-ff3caa9220eb",
+    "duration_seconds": 85.643063,
+    "loop_edited": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false
+  },
+  "emotional": {
+    "files": [
+      "audio/bgm/emotional.ogg",
+      "audio/bgm/emotional.mp3",
+      "audio/bgm/emotional.wav",
+      "audio/bgm/emotional_warm.ogg",
+      "audio/bgm/emotional_warm.mp3",
+      "audio/bgm/emotional_warm.wav"
+    ],
+    "status": "available_via_official_suno_alias",
+    "fallback_track": "emotional_warm",
+    "source_url": "https://suno.com/song/d554c1e5-8dd2-432e-93bf-77951725548e",
+    "duration_seconds": 84.2,
+    "loop_edited": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false
+  },
+  "dark": {
+    "files": [
+      "audio/generated_refresh/dark_pages_loop.ogg",
+      "audio/bgm/dark.ogg",
+      "audio/bgm/dark.mp3",
+      "audio/bgm/dark.wav"
+    ],
+    "status": "original_procedural_composition",
+    "composition_source": "tools/create_refresh_audio.cjs",
+    "instrumental_requested": true,
+    "external_audio_generation": "Higgsfield credit balance exhausted; no job submitted",
+    "loop_edited": true
+  },
+  "meta": {
+    "files": [
+      "audio/generated_refresh/warm_pages_loop.ogg",
+      "audio/bgm/meta.ogg",
+      "audio/bgm/meta.mp3",
+      "audio/bgm/meta.wav"
+    ],
+    "status": "original_procedural_composition",
+    "composition_source": "tools/create_refresh_audio.cjs",
+    "instrumental_requested": true,
+    "external_audio_generation": "Higgsfield credit balance exhausted; no job submitted",
+    "loop_edited": true
+  },
+  "campus_day": {
+    "files": [
+      "audio/bgm/campus_day.ogg",
+      "audio/bgm/campus_day.mp3",
+      "audio/bgm/campus_day.wav"
+    ],
+    "title": "밝고 편안한 캠퍼스 일상",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#campus_day",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/fd8d3989-339a-4254-8104-4fe1bd4d88d6",
+    "source_sha256": "eb3a9685ed1ed5d4c2e5912105272b085df2f6dcf04054b226119977f1236ade",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\campus_day_source.mp3",
+    "source_duration_seconds": 88.92,
+    "duration_seconds": 84.427271,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.00",
+        "input_tp": "-3.13",
+        "input_lra": "5.00",
+        "input_thresh": "-25.11",
+        "output_i": "-22.48",
+        "output_tp": "-8.85",
+        "output_lra": "2.90",
+        "output_thresh": "-32.52",
+        "normalization_type": "dynamic",
+        "target_offset": "0.48"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -10.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/campus_day.ogg": "6f6d2d5eb2116fcb736cb64f5f67dd5481558f30c6cd4da71c0f1238ba6c76f6"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/campus_day_staged_audio_report.json"
+  },
+  "comedy_light": {
+    "files": [
+      "audio/bgm/comedy_light.ogg",
+      "audio/bgm/comedy_light.mp3",
+      "audio/bgm/comedy_light.wav"
+    ],
+    "title": "친근한 장난과 작업실 소동",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#comedy_light",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/81ff79ee-dd77-49c8-b88a-b37642677c11",
+    "source_sha256": "78e052e09e14c2b17d334a6ed3ac79db2c0c628fc082c9a155722b610b13ee71",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\comedy_light_source.mp3",
+    "source_duration_seconds": 88.8,
+    "duration_seconds": 86.694729,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-16.19",
+        "input_tp": "-4.33",
+        "input_lra": "2.30",
+        "input_thresh": "-26.19",
+        "output_i": "-22.31",
+        "output_tp": "-10.45",
+        "output_lra": "2.20",
+        "output_thresh": "-32.31",
+        "normalization_type": "dynamic",
+        "target_offset": "0.31"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -10.1,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/comedy_light.ogg": "4c8554bfc36f56f89ffeae18e0ccb65b1041d244714091c325c4abe54140dd10"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/comedy_light_staged_audio_report.json"
+  },
+  "rivalry_comedy": {
+    "files": [
+      "audio/bgm/rivalry_comedy.ogg",
+      "audio/bgm/rivalry_comedy.mp3",
+      "audio/bgm/rivalry_comedy.wav"
+    ],
+    "title": "라이벌의 유쾌한 신경전",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#rivalry_comedy",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/f3f4318f-a806-48f4-a3a2-dea3467aeda0",
+    "source_sha256": "c511469028742312fc97833fc389a5b5e0f83bbdf24b82857bbb1056c59b4b93",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\rivalry_comedy_source.mp3",
+    "source_duration_seconds": 89.2,
+    "duration_seconds": 87.232792,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-16.30",
+        "input_tp": "-2.80",
+        "input_lra": "2.80",
+        "input_thresh": "-26.30",
+        "output_i": "-22.21",
+        "output_tp": "-8.65",
+        "output_lra": "2.60",
+        "output_thresh": "-32.21",
+        "normalization_type": "dynamic",
+        "target_offset": "0.21"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -8.4,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/rivalry_comedy.ogg": "3c035b92fe289c7890527f48951cc23b7d51ea3b50655928d7a5e823ce9155ad"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/rivalry_comedy_staged_audio_report.json"
+  },
+  "quiet_library": {
+    "files": [
+      "audio/bgm/quiet_library.ogg",
+      "audio/bgm/quiet_library.mp3",
+      "audio/bgm/quiet_library.wav"
+    ],
+    "title": "도서관의 조용한 피아노",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#quiet_library",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/3fcfa755-9a6b-41fa-8150-cb9abe6452ee",
+    "source_sha256": "bea803f4c89cc0a1fa225ba23673033763983414be593022d2cd765c7fc51c01",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\quiet_library_source.mp3",
+    "source_duration_seconds": 91.96,
+    "duration_seconds": 88.130833,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-16.81",
+        "input_tp": "-4.29",
+        "input_lra": "5.30",
+        "input_thresh": "-26.88",
+        "output_i": "-21.91",
+        "output_tp": "-9.22",
+        "output_lra": "4.70",
+        "output_thresh": "-31.97",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.09"
+      }
+    },
+    "measured_export_integrated_lufs": -21.8,
+    "measured_export_true_peak_dbfs": -9.3,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/quiet_library.ogg": "aae9a2f26cb31f492460e5ebd9bae841201d98ebaf4eb4f7ab44d09a20db7801"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/quiet_library_staged_audio_report.json"
+  },
+  "warm_workshop": {
+    "files": [
+      "audio/bgm/warm_workshop.ogg",
+      "audio/bgm/warm_workshop.mp3",
+      "audio/bgm/warm_workshop.wav"
+    ],
+    "title": "공부와 설계의 따뜻한 오후",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#warm_workshop",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/805ba490-8c98-4c0e-8ef6-be7efacb4667",
+    "source_sha256": "6e9a57b189d974c763f17047e71eef659f6c7d2a1dd09beca974dc430ca16157",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\warm_workshop_source.mp3",
+    "source_duration_seconds": 89.8,
+    "duration_seconds": 85.042125,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.86",
+        "input_tp": "-3.26",
+        "input_lra": "2.60",
+        "input_thresh": "-25.86",
+        "output_i": "-22.31",
+        "output_tp": "-10.07",
+        "output_lra": "2.20",
+        "output_thresh": "-32.31",
+        "normalization_type": "dynamic",
+        "target_offset": "0.31"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -9.4,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/warm_workshop.ogg": "2bc6a2e618c106edf391437cdda6147ea79cdedfc2bc53306b7a411b1becf2c8"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/warm_workshop_staged_audio_report.json"
+  },
+  "gentle_walk": {
+    "files": [
+      "audio/bgm/gentle_walk.ogg",
+      "audio/bgm/gentle_walk.mp3",
+      "audio/bgm/gentle_walk.wav"
+    ],
+    "title": "산책과 사진 촬영",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#gentle_walk",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/54b43e46-a2ba-47ef-a480-f960d6cb09a9",
+    "source_sha256": "289c67c9b78f6303cfa6bc4f759254c06c67e1079b50b0cb26d81695aeb6ece3",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\gentle_walk_source.mp3",
+    "source_duration_seconds": 89.96,
+    "duration_seconds": 85.689292,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.94",
+        "input_tp": "-3.82",
+        "input_lra": "2.90",
+        "input_thresh": "-25.95",
+        "output_i": "-22.12",
+        "output_tp": "-10.14",
+        "output_lra": "2.50",
+        "output_thresh": "-32.13",
+        "normalization_type": "dynamic",
+        "target_offset": "0.12"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -9.7,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/gentle_walk.ogg": "5c08f3cffb69839629f413d87362123b52dc0b2459c2bcd6d5f3c6e587c655c0"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/gentle_walk_staged_audio_report.json"
+  },
+  "evening_warm": {
+    "files": [
+      "audio/bgm/evening_warm.ogg",
+      "audio/bgm/evening_warm.mp3",
+      "audio/bgm/evening_warm.wav"
+    ],
+    "title": "함께 마무리하는 저녁",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#evening_warm",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/1472b46e-717b-4ffb-aebc-51eec6be4582",
+    "source_sha256": "aceefdeb914c1c5d4cf3c1fa11a4c2c998020afc0d7bb279e671bd39e9a589a5",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\evening_warm_source.mp3",
+    "source_duration_seconds": 89.96,
+    "duration_seconds": 85.821292,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-16.35",
+        "input_tp": "-4.72",
+        "input_lra": "4.30",
+        "input_thresh": "-26.35",
+        "output_i": "-22.25",
+        "output_tp": "-10.39",
+        "output_lra": "4.00",
+        "output_thresh": "-32.25",
+        "normalization_type": "dynamic",
+        "target_offset": "0.25"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -10.2,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/evening_warm.ogg": "da86455cbb4cc405b34d6ddd1b764102c9c6f5e33b703f9d54307f7b9f06a5d0"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/evening_warm_staged_audio_report.json"
+  },
+  "night_campus": {
+    "files": [
+      "audio/bgm/night_campus.ogg",
+      "audio/bgm/night_campus.mp3",
+      "audio/bgm/night_campus.wav"
+    ],
+    "title": "밤 캠퍼스와 메시지",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#night_campus",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/e8d1078e-e81b-46dd-808c-cb02f8e383c5",
+    "source_sha256": "9a2528239316600e34402078240b2d171266cab123d25c5f7eeb7d757cfa0ba5",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\night_campus_source.mp3",
+    "source_duration_seconds": 89.8,
+    "duration_seconds": 85.258563,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-17.06",
+        "input_tp": "-4.25",
+        "input_lra": "6.40",
+        "input_thresh": "-27.12",
+        "output_i": "-22.68",
+        "output_tp": "-9.72",
+        "output_lra": "5.30",
+        "output_thresh": "-32.73",
+        "normalization_type": "dynamic",
+        "target_offset": "0.68"
+      }
+    },
+    "measured_export_integrated_lufs": -22.0,
+    "measured_export_true_peak_dbfs": -9.1,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/night_campus.ogg": "2cd32db0a3fb8c50919afee8adf623505148e71a49f729ea4588bb05aa712d48"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/night_campus_staged_audio_report.json"
+  },
+  "light_tension": {
+    "files": [
+      "audio/bgm/light_tension.ogg",
+      "audio/bgm/light_tension.mp3",
+      "audio/bgm/light_tension.wav"
+    ],
+    "title": "축제 준비와 발표 전 긴장",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#light_tension",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/c021c287-9861-42f9-99a4-10e9d624f6ad",
+    "source_sha256": "b456a01aff8303b760665d4de8b294d5429b474d1cb0e84a09840cfd026808f3",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\light_tension_source.mp3",
+    "source_duration_seconds": 89.32,
+    "duration_seconds": 85.819479,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.61",
+        "input_tp": "-2.72",
+        "input_lra": "3.40",
+        "input_thresh": "-25.72",
+        "output_i": "-21.83",
+        "output_tp": "-9.05",
+        "output_lra": "3.10",
+        "output_thresh": "-31.88",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.17"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -9.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/light_tension.ogg": "1b593af11f224dca5c250483bd32c529edc62882a41a56ee615e01c1ee356833"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/light_tension_staged_audio_report.json"
+  },
+  "hopeful_teamwork": {
+    "files": [
+      "audio/bgm/hopeful_teamwork.ogg",
+      "audio/bgm/hopeful_teamwork.mp3",
+      "audio/bgm/hopeful_teamwork.wav"
+    ],
+    "title": "팀워크와 희망",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#hopeful_teamwork",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/d2544a79-7a39-4a0a-89b8-9d92af9af1c2",
+    "source_sha256": "7565336dcd9a3791b1eb326efe6db40560d05cd1529200e5b4ac9142faf77f97",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\hopeful_teamwork_source.mp3",
+    "source_duration_seconds": 89.68,
+    "duration_seconds": 87.28,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.01",
+        "input_tp": "-2.78",
+        "input_lra": "4.60",
+        "input_thresh": "-25.01",
+        "output_i": "-22.27",
+        "output_tp": "-9.82",
+        "output_lra": "4.40",
+        "output_thresh": "-32.27",
+        "normalization_type": "dynamic",
+        "target_offset": "0.27"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -9.6,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/hopeful_teamwork.ogg": "afdbdd6c2aec6e04fb1be4cf0d3e753196c1f7fc7028ea78d2527df4d67f7fcc"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/hopeful_teamwork_staged_audio_report.json"
+  },
+  "emotional_warm": {
+    "files": [
+      "audio/bgm/emotional_warm.ogg",
+      "audio/bgm/emotional_warm.mp3",
+      "audio/bgm/emotional_warm.wav"
+    ],
+    "title": "배려와 진심을 나누는 대화",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#emotional_warm",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/d554c1e5-8dd2-432e-93bf-77951725548e",
+    "source_sha256": "2088271b38c2e2500017d277e3450e6ea6a64c260fdd7f5b787f0f02c9ec51d0",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\emotional_warm_source.mp3",
+    "source_duration_seconds": 89.52,
+    "duration_seconds": 84.2,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-16.52",
+        "input_tp": "-3.76",
+        "input_lra": "7.50",
+        "input_thresh": "-26.69",
+        "output_i": "-21.95",
+        "output_tp": "-7.50",
+        "output_lra": "5.70",
+        "output_thresh": "-32.08",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.05"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -7.3,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/emotional_warm.ogg": "cc5c77f90711e907a9b3bf3c7c661e2607ff6961259cb450b4b6ec4765bd8020"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/emotional_warm_staged_audio_report.json"
+  },
+  "romantic_night": {
+    "files": [
+      "audio/bgm/romantic_night.ogg",
+      "audio/bgm/romantic_night.mp3",
+      "audio/bgm/romantic_night.wav"
+    ],
+    "title": "친구라는 말이 달라지는 밤",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#romantic_night",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/b554f6c2-f72d-4f05-b923-ff3caa9220eb",
+    "source_sha256": "56b488044ad0e794475f4831b126205f086c16adcf89e533342465f0387bdc57",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\romantic_night_source.mp3",
+    "source_duration_seconds": 89.96,
+    "duration_seconds": 85.643063,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.78",
+        "input_tp": "-3.60",
+        "input_lra": "5.20",
+        "input_thresh": "-25.92",
+        "output_i": "-22.21",
+        "output_tp": "-9.40",
+        "output_lra": "5.10",
+        "output_thresh": "-32.26",
+        "normalization_type": "dynamic",
+        "target_offset": "0.21"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -9.7,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/romantic_night.ogg": "7acf7e0e42f7ea6851933aaf4ab28e213d493de8a20b1291ff354a5d2b8d061b"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/romantic_night_staged_audio_report.json"
+  },
+  "chapter_ending_reprise": {
+    "files": [
+      "audio/bgm/chapter_ending_reprise.ogg",
+      "audio/bgm/chapter_ending_reprise.mp3",
+      "audio/bgm/chapter_ending_reprise.wav"
+    ],
+    "title": "챕터를 마무리하는 여운",
+    "status": "official_suno_download_loop_edited",
+    "target_duration_seconds": 90,
+    "instrumental": true,
+    "prompt": "music_prompts/BGM_SCENE_PROMPTS_20261105.md#chapter_ending_reprise",
+    "provider": "Suno official download",
+    "source_url": "https://suno.com/song/04a88227-3e5a-4999-afb1-a9946351d429",
+    "source_sha256": "a4680be10aca7d8ab85c74fae171a4a927c697083edb20612138849163c4c7c0",
+    "preserved_original": "D:\\CampusRomance_VN\\artwork\\bgm_integration_20261105\\originals\\chapter_ending_reprise_source.mp3",
+    "source_duration_seconds": 92.0,
+    "duration_seconds": 88.75675,
+    "loop_edited": true,
+    "loop_method": "Remove detected terminal silence >=0.25s below-50dBFS. A=source[onebar:trim_end], B=source[0:onebar]. Equal-power qsin/qsin acrossfade A_tail+B_head; output begins at original onebar and ends adjacent to it.",
+    "normalization": {
+      "target_integrated_lufs": -22,
+      "target_true_peak_dbtp": -2,
+      "target_lra_lu": 7,
+      "method": "FFmpeg two-pass loudnorm, linear requested; measured after Vorbis encode",
+      "pass1": {
+        "input_i": "-15.73",
+        "input_tp": "-3.83",
+        "input_lra": "6.40",
+        "input_thresh": "-25.75",
+        "output_i": "-22.40",
+        "output_tp": "-10.30",
+        "output_lra": "4.30",
+        "output_thresh": "-32.40",
+        "normalization_type": "dynamic",
+        "target_offset": "0.40"
+      }
+    },
+    "measured_export_integrated_lufs": -21.9,
+    "measured_export_true_peak_dbfs": -10.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "codec": "Vorbis q6",
+    "file_sha256": {
+      "audio/bgm/chapter_ending_reprise.ogg": "2c706ec41034aeeefba27b07ee4f6de61b743d9a5fc15e7897ee818dcc1c9810"
+    },
+    "signal_checks_passed": true,
+    "listening_performed": false,
+    "musically_seamless_loop_verified": false,
+    "voice_absence_verified": false,
+    "instrumental_requested": true,
+    "qa_report": "artwork/bgm_integration_20261105/qa/chapter_ending_reprise_staged_audio_report.json"
+  }
+}

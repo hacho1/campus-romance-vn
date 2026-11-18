@@ -1,0 +1,7 @@
+{
+  "aliases": {
+    "rumi": "lumi"
+  },
+  "normal_max_cast": 3,
+  "sd_event_registry": "data/sd_events.json"
+}

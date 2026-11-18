@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "S01/S02 static only; native execution belongs to integration QA",
+  "episodes": [
+    {
+      "episode": "S01",
+      "scenes": 8,
+      "dialogues": 663,
+      "menus": 1,
+      "source_sha256": "639f456ccd9bbeee488ab17f82b12cb0d29c6a4e7501660e27528cd6d2251280",
+      "native_text_exact": true,
+      "no_art_or_standing_calls": true
+    },
+    {
+      "episode": "S02",
+      "scenes": 8,
+      "dialogues": 892,
+      "menus": 2,
+      "source_sha256": "3a539c6a47f644bb49d1090a21874c8ca9cbca9f8c26b7f985c90d304770a17c",
+      "native_text_exact": true,
+      "no_art_or_standing_calls": true
+    }
+  ],
+  "policy_choices": 9,
+  "allowed_points": [
+    5,
+    10
+  ],
+  "bad_choices": 0,
+  "all_jump_labels_resolve": true,
+  "new_s03_or_endings": false,
+  "python_syntax": true
+}

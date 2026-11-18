@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "version": "0.6.4-test",
+  "build": 2026111001,
+  "manifest_sha256": "bab2df7a5ee637a381662a66f23ce41243148a2d92b990aba67f131de76a7952",
+  "native_cases": 18,
+  "sdk_assertions": 48,
+  "source_snapshot_files": 497,
+  "public_files_verified": 20,
+  "seed_rpyc": 84,
+  "uploaded_chunks": 77,
+  "uploaded_bytes": 3306773,
+  "total_game_bytes": 586093204
+}

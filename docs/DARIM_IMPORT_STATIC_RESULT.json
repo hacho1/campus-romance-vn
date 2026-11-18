@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "episodes": 6,
+  "dialogues": 4008,
+  "scenes": 52,
+  "menus": 16,
+  "options": 52,
+  "conditions": 14,
+  "condition_branches": 28,
+  "all_source_quotes_checked": 2386,
+  "speaker_records_checked": 4008,
+  "errors": [],
+  "generation_byte_idempotent": true,
+  "duplicate_owned_defaults": false,
+  "new_art_or_standing_calls": false,
+  "all_six_originals_byte_identical": true
+}

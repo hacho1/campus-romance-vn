@@ -1,0 +1,16 @@
+{
+  "source": "D:\\CampusRomance_VN\\launcher_app\\assets\\launcher-source.png",
+  "source_sha256": "44039a9dd123094f52f325346d90436202d14481feb7084ced2a9b66563c557a",
+  "icon": "D:\\CampusRomance_VN\\launcher_app\\assets\\launcher.ico",
+  "sizes": [
+    16,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "icon_sha256": "8013446063aff88c6a5fa88dcb38ff74293c66a33e135310b780803dc0382398",
+  "policy": "Original supplied artwork preserved. Only icon format conversion and uniform scaling."
+}

@@ -1,0 +1,9 @@
+saves/
+cache/
+__pycache__/
+*.rpyc
+*.rpymc
+*.save
+*.log
+renpy_project/log.txt
+renpy_project/traceback.txt

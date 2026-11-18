@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eaf2fc">
+  <meta name="description" content="우리 사이, 그 이상. CH01–07 공통 루트와 로만 R01–R06의 해피·배드 엔딩, 해피 이후 시크릿 이야기를 담은 Windows 비주얼 노벨. 다른 네 사람의 개별 루트는 제작 중입니다.">
+  <title>우리 사이, 그 이상 — Windows 게임</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <header class="site-header">
+    <a class="wordmark" href="#main" aria-label="우리 사이, 그 이상 처음으로">우리 사이</a>
+    <nav aria-label="페이지 안내">
+      <a href="#about">게임 소개</a>
+      <a href="#install">설치 안내</a>
+      <a href="#release">업데이트</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="split-stage">
+      <aside class="cover-stage" aria-label="게임 타이틀 일러스트">
+        <img class="cover-art" src="assets/campus-main-visual.webp" width="2048" height="1152" alt="봄꽃이 핀 잔디 위에 나란히 누운 로만, 시아, 오므, 다림, 하린" fetchpriority="high">
+        <div class="cover-caption">
+          <p>같은 봄, 조금 다른 우리</p>
+          <span>로만, 시아, 다림, 오므, 하린과 함께.</span>
+        </div>
+      </aside>
+
+      <div class="reading-column">
+        <section class="hero" aria-labelledby="game-title">
+          <h1 id="game-title"><span>우리 사이,</span><span>그 이상</span></h1>
+          <p class="hero-description">CC대의 봄, 다섯 사람과 축제를 준비하는 선택형 비주얼 노벨.</p>
+          <div class="download-block" data-download-state="checking">
+            <a id="download-launcher" class="primary-action" href="downloads/CampusRomanceLauncher.exe" download aria-describedby="download-status" aria-disabled="true">Windows 런처 다운로드</a>
+            <p id="download-status" class="support-text" role="status">런처 다운로드를 확인하고 있어요.</p>
+          </div>
+          <p class="game-scope">Windows PC용 <span>CH01–07 공통 루트</span></p>
+          <p class="access-note">개발 테스트 버전입니다. PC 런처에서 설치·실행·업데이트를 관리해요.</p>
+          <noscript><p class="support-text">다운로드 파일과 최신 버전은 JavaScript를 켜면 확인할 수 있어요. <a href="downloads/CampusRomanceLauncher.exe" download>런처 파일 받기</a></p></noscript>
+        </section>
+
+        <section id="about" class="about section-pad" aria-labelledby="about-title">
+          <h2 id="about-title">축제가 이어 준 사이</h2>
+          <p>함께 부스를 준비하고, 마음에 남은 말을 주고받고, 조금씩 서로를 알아갑니다. 어떤 대답을 고를지는 당신의 몫이에요.</p>
+          <p>CH01–07 공통 루트에 이어 로만의 R01–R06을 플레이하세요. 해피·배드 엔딩과 해피 엔딩 이후의 시크릿 이야기를 담았습니다. 다른 네 사람의 개별 루트는 제작 중입니다.</p>
+        </section>
+
+        <section id="screens" class="screens section-pad" aria-labelledby="screens-title">
+          <h2 id="screens-title">캠퍼스의 한 페이지</h2>
+          <p>프로필과 사진, 비밀 메모에 함께한 순간이 남습니다.</p>
+          <div class="gallery">
+            <figure>
+              <button class="screen-open" id="screen-open" type="button" aria-label="현재 게임 화면 크게 보기">
+                <img id="selected-screen" src="assets/game-main-menu.png" width="1920" height="1080" alt="다섯 사람의 일러스트와 게임 시작 메뉴" loading="lazy">
+                <span class="screen-open-label">크게 보기</span>
+              </button>
+              <figcaption id="screen-caption">같은 봄이 시작되는 메인 화면</figcaption>
+            </figure>
+            <div class="screen-choices" aria-label="게임 화면 선택">
+              <button type="button" class="screen-choice" data-screen="0" aria-pressed="true"><img src="assets/game-main-menu.png" width="1920" height="1080" alt="" loading="lazy"><span>첫 화면</span></button>
+              <button type="button" class="screen-choice" data-screen="1" aria-pressed="false"><img src="assets/game-student-profile.png" width="1920" height="1080" alt="" loading="lazy"><span>우리의 페이지</span></button>
+              <button type="button" class="screen-choice" data-screen="2" aria-pressed="false"><img src="assets/game-met-people.png" width="1920" height="1080" alt="" loading="lazy"><span>만난 사람들</span></button>
+            </div>
+          </div>
+          <noscript><p>화면을 크게 보려면 이미지를 새 탭에서 여세요.</p><p><a href="assets/game-student-profile.png">우리의 페이지 보기</a> <a href="assets/game-met-people.png">만난 사람들 보기</a></p></noscript>
+        </section>
+      </div>
+    </div>
+
+    <section id="install" class="install section-pad" aria-labelledby="install-title">
+      <div class="install-heading">
+        <h2 id="install-title">PC에 한 번 설치</h2>
+        <p>런처에서 게임을 설치하고 실행합니다. 이후에는 같은 런처에서 변경된 파일을 받아 이어서 플레이하는 방식이에요.</p>
+        <p class="support-text">저장 기록은 이 PC에 보관하며, 게임을 업데이트할 때도 유지합니다.</p>
+      </div>
+      <ol class="install-steps">
+        <li><h3>런처 받기</h3><p>위의 Windows 런처를 내려받아 실행하세요.</p></li>
+        <li><h3>게임 설치하기</h3><p>설치할 폴더를 고릅니다. 여유 공간이 있는 D 드라이브의 전용 폴더를 권장해요.</p></li>
+        <li><h3>같은 런처로 이어가기</h3><p>설치한 게임을 실행하고, 새 버전이 배포되면 필요한 파일을 갱신합니다.</p></li>
+      </ol>
+    </section>
+
+    <section id="release" class="release section-pad" aria-labelledby="release-title" data-release-state="loading">
+      <div class="release-heading">
+        <h2 id="release-title">지금의 이야기</h2>
+        <p>배포된 버전과 바뀐 내용을 확인하세요.</p>
+      </div>
+      <div class="release-content">
+        <div id="release-status" role="status" aria-live="polite"><p>최신 버전을 확인하고 있어요.</p></div>
+        <div id="release-details" hidden>
+          <p class="release-version" id="release-version"></p>
+          <p class="support-text" id="release-build"></p>
+          <ul id="release-notes"></ul>
+        </div>
+        <button id="release-retry" class="text-action" type="button" hidden>다시 확인</button>
+        <noscript><p>최신 버전 확인에는 JavaScript가 필요합니다.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>우리 사이, 그 이상</p><a href="#main">처음으로</a><span>Windows 비주얼 노벨</span></footer>
+
+  <dialog id="screen-dialog" aria-label="게임 화면 크게 보기">
+    <form method="dialog"><button class="dialog-close" aria-label="큰 화면 닫기">닫기</button></form>
+    <img id="dialog-screen" src="assets/game-main-menu.png" width="1920" height="1080" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+</body>
+</html>

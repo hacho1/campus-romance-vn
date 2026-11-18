@@ -1,0 +1,46 @@
+{
+  "R01": {
+    "source_hash_matches": true,
+    "source_mapped_say_parity": 537,
+    "unique_source_lines": true,
+    "scenes": 8,
+    "menus": 3,
+    "choices": 9,
+    "conditions": 0,
+    "parsed_python_statements": 42,
+    "standing_sd_ld_show_calls": 0,
+    "duplicate_owned_defaults": 0,
+    "production_sha256": "ce51ee290d50bba32d4cfd9b728582ef3b79a0f915fad513ae7c9f2807d0147a",
+    "unnumbered_choice_regression": {
+      "c_caption_line": 1038,
+      "c_mc_response_line": 1039,
+      "passed": true
+    }
+  },
+  "R02": {
+    "source_hash_matches": true,
+    "source_mapped_say_parity": 713,
+    "unique_source_lines": true,
+    "scenes": 8,
+    "menus": 2,
+    "choices": 6,
+    "conditions": 0,
+    "parsed_python_statements": 44,
+    "standing_sd_ld_show_calls": 0,
+    "duplicate_owned_defaults": 0,
+    "production_sha256": "77d84069f37698c1f72a3959582d5fd4212856b21ae8052f746deadd89e8d3ff"
+  },
+  "R03": {
+    "source_hash_matches": true,
+    "source_mapped_say_parity": 628,
+    "unique_source_lines": true,
+    "scenes": 8,
+    "menus": 2,
+    "choices": 6,
+    "conditions": 2,
+    "parsed_python_statements": 40,
+    "standing_sd_ld_show_calls": 0,
+    "duplicate_owned_defaults": 0,
+    "production_sha256": "32fbe5f5cc008c8db7e80d32945541d1ecc8cb997b9f36dcd1545931b9e90557"
+  }
+}

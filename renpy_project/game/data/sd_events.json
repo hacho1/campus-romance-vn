@@ -1,0 +1,937 @@
+{
+  "settings": {
+    "transition": 0.22,
+    "canvas": [
+      1920,
+      1080
+    ],
+    "important_content_bottom": 740,
+    "dialogue_top": 814
+  },
+  "events": {
+    "ch01_sia_omu_argument": {
+      "chapter": 1,
+      "scene": "SC02",
+      "title": "처음부터 시끄러운 두 사람",
+      "type": "A",
+      "cast": [
+        "sia",
+        "omu"
+      ],
+      "layout": "시아는 왼쪽에서 장난스럽게, 오므는 오른쪽에서 어이없다는 반응. 얼굴과 손짓은 위쪽에 둡니다.",
+      "gallery_variants": [
+        "01"
+      ],
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch01_sia_omu_argument_01.webp",
+          "description": "시아가 팔짱을 끼고 뻔뻔하게 말하고, 오므가 받아칩니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch01_sia_omu_argument_02.webp",
+          "description": "새 팀원을 발견한 시아가 흥미롭게 반응하고 오므가 지켜봅니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch01_sia_omu_argument_03.webp",
+          "description": "감상 담당이라는 아이디어를 떠올린 시아와 옆에서 반응하는 오므."
+        }
+      }
+    },
+    "ch01_drink_incident": {
+      "chapter": 1,
+      "scene": "SC04",
+      "title": "끝나지 않은 음료수 사건",
+      "gallery_variants": [
+        "01"
+      ],
+      "type": "B",
+      "cast": [
+        "lumi",
+        "sia",
+        "omu",
+        "roman"
+      ],
+      "layout": "여유로운 하린과 충격받은 시아가 중심. 오므와 로만은 작은 리액션으로 주변에 배치합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch01_drink_incident_01.webp",
+          "description": "시아가 민망한 듯 팔을 교차하고 하린은 여유롭게 웃습니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch01_drink_incident_01.webp",
+          "description": "시아가 과장되게 반응하고, 오므가 웃으며 다른 팀원들도 반응합니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch01_drink_incident_01.webp",
+          "description": "같은 사건을 두고 계속되는 단체 리액션.",
+          "overlay_caption": "음료수 사건 · 현재도 진행 중"
+        }
+      }
+    },
+    "ch01_group_meeting": {
+      "chapter": 1,
+      "scene": "SC05·SC06",
+      "title": "첫 회의부터 난장판",
+      "gallery_variants": [
+        "01"
+      ],
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "다섯 히로인이 테이블 주변에 모입니다. 얼굴을 크게 유지하고 종이와 소품은 필요한 만큼만 둡니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch01_group_meeting_01.webp",
+          "description": "각자의 전공과 관심사로 전시 아이디어를 나누는 첫 회의."
+        },
+        "02": {
+          "image": "images/sd_events/ch01_group_meeting_02.webp",
+          "description": "시아는 책상에 엎드리고, 오므는 팔짱을 낀 채 바라봅니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch01_group_meeting_03.webp",
+          "description": "시아가 손으로 X를 만들고 팀원들이 반응합니다. 작업 상대를 고를 때도 유지합니다."
+        }
+      }
+    },
+    "ch01_plan_problem": {
+      "chapter": 1,
+      "scene": "SC08",
+      "title": "계획에 없던 공간 문제",
+      "gallery_variants": [],
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "공간 축소 소식에 놀란 팀을 한 화면에 구성합니다. 시아의 큰 반응과 다른 사람들의 대응을 구분합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch01_plan_problem_01.webp",
+          "description": "줄어든 부스 공간 소식에 여러 사람이 당황합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch01_plan_problem_02.webp",
+          "description": "시아는 절망하고, 다른 팀원들은 기획을 다시 정리하려 합니다."
+        }
+      }
+    },
+    "ch02_rival_introduction": {
+      "chapter": 2,
+      "scene": "SC03",
+      "title": "시아 vs 스키, 첫 만남",
+      "gallery_variants": [],
+      "type": "B",
+      "cast": [
+        "sia",
+        "ski",
+        "hyeophap"
+      ],
+      "layout": "왼쪽 아래에 자신만만한 스키, 오른쪽 위에 놀리는 시아, 오른쪽 아래에 제압하려는 협합을 둡니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_rival_introduction_01.webp",
+          "description": "스키가 자신만만하게 자기소개하고 시아와 협합이 지켜봅니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch02_rival_introduction_02.webp",
+          "description": "시아가 스키를 놀리고, 스키의 자신만만한 표정이 흔들립니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch02_rival_introduction_03.webp",
+          "description": "협합이 차분히 반박하고 스키가 기가 죽습니다. 시아는 웃습니다."
+        }
+      }
+    },
+    "ch02_interview_flashback": {
+      "chapter": 2,
+      "scene": "SC04",
+      "title": "면접은 3초 만에 끝났습니다",
+      "gallery_variants": [
+        "02"
+      ],
+      "type": "B",
+      "cast": [
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "면접 책상 앞 스키가 중심. 협합은 옆에, 헤스와 밤밤은 지원자 쪽에 배치합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_interview_flashback_01.webp",
+          "description": "스키가 준비한 서류 앞에서 자신만만하게 면접을 시작하려 합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch02_interview_flashback_02.webp",
+          "description": "협합이 헤스와 밤밤을 바로 합격시킵니다. 스키는 충격, 헤스는 무심하고 밤밤은 느긋합니다."
+        }
+      }
+    },
+    "ch02_whiteboard_huddle": {
+      "chapter": 2,
+      "scene": "SC06",
+      "title": "화이트보드 앞 작전 회의",
+      "gallery_variants": [
+        "01"
+      ],
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "라이벌 전시를 살펴보고 돌아온 다섯 사람이 동아리실 화이트보드 앞에서 보완할 점을 의논합니다.",
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_whiteboard_huddle_01.webp",
+          "description": "다림이 화이트보드에 정리한 문제를 보며 다섯 사람이 전시를 하나의 질문으로 묶기로 합니다."
+        }
+      }
+    },
+    "ch02_ski_accident": {
+      "chapter": 2,
+      "scene": "SC07",
+      "title": "스키와 쏟아진 상자",
+      "gallery_variants": [
+        "01",
+        "03"
+      ],
+      "type": "C",
+      "cast": [
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam",
+        "darim",
+        "sia"
+      ],
+      "layout": "상자와 흩어진 카드가 중심. 인물은 다치지 않은 가벼운 사고이며 얼굴은 대사창 위에 둡니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_ski_accident_01.webp",
+          "description": "스키가 상자를 떨어뜨려 카드와 포장 샘플이 흩어집니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch02_ski_accident_02.webp",
+          "description": "협합과 헤스가 스키를 바라보고, 밤밤은 흩어진 카드를 가리킵니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch02_ski_accident_03.webp",
+          "description": "스키 곁으로 모인 친구들이 쏟아진 카드를 함께 정리합니다."
+        }
+      }
+    },
+    "ch02_rival_after_presentation": {
+      "chapter": 2,
+      "scene": "SC09",
+      "title": "발표가 끝나도 신경전",
+      "gallery_variants": [
+        "02"
+      ],
+      "type": "B",
+      "cast": [
+        "sia",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "저녁 광장의 시아와 스키를 중심으로, 협합이 스키를 데리고 나가는 방향을 분명히 둡니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_rival_after_presentation_01.webp",
+          "description": "발표 후에도 시아와 스키가 다시 티격태격합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch02_rival_after_presentation_02.webp",
+          "description": "협합이 스키를 데리고 가고, 시아가 웃습니다. 헤스와 밤밤은 주변에서 반응합니다."
+        }
+      }
+    },
+    "ch03_rival_comedy": {
+      "chapter": 3,
+      "scene": "SC02",
+      "title": "옆집은 벌써 준비 완료?",
+      "gallery_variants": [],
+      "type": "B",
+      "cast": [
+        "ski",
+        "hyeophap",
+        "sia"
+      ],
+      "layout": "홍보 중인 스키를 크게, 협합의 담담한 지시와 시아의 반응을 같은 한 컷 안에 배치합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_rival_comedy_01.webp",
+          "description": "스키가 자신 있게 디저트를 홍보합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch03_rival_comedy_02.webp",
+          "description": "협합이 테이블을 옮기라고 지시하고 스키가 반응합니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch03_rival_comedy_03.webp",
+          "description": "두 팀이 준비하는 사이 시아가 테이블을 옮기며 반응합니다."
+        }
+      }
+    },
+    "ch03_trial_confusion": {
+      "chapter": 3,
+      "scene": "SC03",
+      "title": "첫 방문객부터 예상 밖",
+      "gallery_variants": [],
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "visitor"
+      ],
+      "layout": "익명의 방문객을 앞에, 서로 다른 방향을 알려 주는 히로인들의 손짓과 당황한 표정이 잘 보이게 구성합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_trial_confusion_01.webp",
+          "description": "첫 방문객의 질문에 다섯 히로인이 서로 다른 쪽을 안내합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch03_trial_confusion_02.webp",
+          "description": "하린이 안내 절차가 복잡하다는 점을 알아차립니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch03_trial_confusion_03.webp",
+          "description": "방문객이 떠난 뒤 시아가 멍해지고 팀이 상황을 돌아봅니다."
+        }
+      }
+    },
+    "ch03_sia_force_quit_reaction": {
+      "chapter": 3,
+      "scene": "SC05",
+      "title": "강제종료만은 안 돼!",
+      "type": "D",
+      "cast": [
+        "sia",
+        "lumi"
+      ],
+      "layout": "시아의 과장된 반응에 집중합니다. 하린은 대사를 받는 보조 인물로 두거나 화면 밖으로 둘 수 있습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_sia_force_quit_reaction_01.webp",
+          "description": "시아가 자신 있게 이야기합니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch03_sia_force_quit_reaction_02.webp",
+          "description": "하린이 강제종료를 언급하자 시아가 굳어집니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch03_sia_force_quit_reaction_03.webp",
+          "description": "시아가 과장되게 거부하는 반응. 만화 효과는 그림에 포함하고 실제 대사는 넣지 않습니다."
+        }
+      }
+    },
+    "ch03_joint_cooperation": {
+      "chapter": 3,
+      "scene": "SC07",
+      "title": "이번 한 번만 같이하죠",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "두 팀의 협력이 읽히도록 주요 인물만 크게 선택해도 됩니다. 아홉 명 전원을 작게 우겨 넣지 않습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_joint_cooperation_01.webp",
+          "description": "두 부스의 대기 줄이 겹쳐 방문객이 혼란을 겪습니다."
+        },
+        "02": {
+          "image": "images/sd_events/ch03_joint_cooperation_02.webp",
+          "description": "파란색과 주황색 차양 아래에서 두 팀이 방문객에게 각 부스 방향을 가리키는 안내 표지를 보여 줍니다."
+        },
+        "03": {
+          "image": "images/sd_events/ch03_joint_cooperation_03.webp",
+          "description": "시아와 스키가 다시 신경전을 벌이고 협합과 오므 등이 지켜봅니다."
+        }
+      }
+    },
+    "ch02_presentation_release": {
+      "chapter": 2,
+      "scene": "SC08",
+      "title": "발표가 끝났다!",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "발표를 마친 다섯 명이 복도에서 숨을 돌리고 기뻐합니다.",
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch02_presentation_release_01.webp",
+          "description": "발표를 마친 다섯 명이 복도에서 숨을 돌리고 기뻐합니다."
+        }
+      }
+    },
+    "ch03_rival_booth_open": {
+      "chapter": 3,
+      "scene": "SC02",
+      "title": "먼저 문을 연 디저트 부스",
+      "type": "C",
+      "cast": [
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "스키네 팀 네 명만 디저트 시범 부스에서 쿠키와 질문 카드를 준비하고 손님을 맞이합니다.",
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_rival_booth_open_01.webp",
+          "description": "스키네 팀 네 명만 디저트 시범 부스에서 쿠키와 질문 카드를 준비하고 손님을 맞이합니다."
+        }
+      }
+    },
+    "ch03_trial_huddle": {
+      "chapter": 3,
+      "scene": "SC03",
+      "title": "잠깐, 작전 회의!",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "첫 방문객을 맞이한 다섯 명이 부스 옆에서 몸을 모아 운영 절차를 의논합니다.",
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_trial_huddle_01.webp",
+          "description": "첫 방문객을 맞이한 다섯 명이 부스 옆에서 몸을 모아 운영 절차를 의논합니다."
+        }
+      }
+    },
+    "ch03_rest_break": {
+      "chapter": 3,
+      "scene": "SC05",
+      "title": "나무 그늘 아래에서",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "다섯 명이 야외 휴게 천막 아래 벤치에서 잠깐 쉬며 시범 운영을 돌아봅니다.",
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch03_rest_break_01.webp",
+          "description": "다섯 명이 야외 휴게 천막 아래 벤치에서 잠깐 쉬며 시범 운영을 돌아봅니다."
+        }
+      }
+    },
+    "ch04_meeting_comedy_01": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC02",
+      "title": "영상은 딱 1분인데",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "동아리실에서 시아가 다섯 사람의 시선을 모으며 영상 구성을 제안합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_meeting_comedy_01.webp",
+          "description": "시아가 1분짜리 시연 영상에 넣고 싶은 아이디어를 신나게 설명합니다."
+        }
+      }
+    },
+    "ch04_meeting_comedy_02": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC02",
+      "title": "역시 너밖에 없다!",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "로만의 조심스러운 표정과 시아의 들뜬 반응을 한 화면에 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_meeting_comedy_02.webp",
+          "description": "로만이 시아의 아이디어에 호응했다가 영상 길이를 걱정하자 시아가 당황합니다."
+        }
+      }
+    },
+    "ch04_meeting_comedy_03": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC02",
+      "title": "늘 이런 식이다",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "동아리실에 모인 다섯 명을 보여 주며 장난을 주고받는 분위기를 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_meeting_comedy_03.webp",
+          "description": "시연 영상 이야기가 저녁 메뉴로 새고, 친구들이 평소처럼 웃음을 터뜨립니다."
+        }
+      }
+    },
+    "ch04_ski_baking_01": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC03",
+      "title": "스키의 숨겨진 실력",
+      "gallery_variants": [],
+      "cast": [
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam",
+        "sia"
+      ],
+      "layout": "축제 준비 구역에서 쿠키를 보여 주는 스키와 시아의 반응을 중심으로 잡습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_ski_baking_01.webp",
+          "description": "스키가 구운 쿠키를 자랑하고 시아가 장난스럽게 받아칩니다."
+        }
+      }
+    },
+    "ch04_friendship_teasing_01": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC04",
+      "title": "와, 모범 답안",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "동아리실에서 다섯 명이 화면 앞 주인공을 바라봅니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_friendship_teasing_01.webp",
+          "description": "주인공이 다들 편하다고 답하자 친구들이 표정을 살피며 장난을 이어 갑니다."
+        }
+      }
+    },
+    "ch04_friendship_teasing_02": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC04",
+      "title": "평소처럼 웃었는데",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "친구들의 웃는 얼굴을 둘러보는 주인공의 시점으로 잡습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_friendship_teasing_02.webp",
+          "description": "또 웃음이 터집니다. 장난은 평소와 같지만 주인공은 조금 다르게 받아들입니다."
+        }
+      }
+    },
+    "ch04_submission_success": {
+      "requires_art": true,
+      "chapter": 4,
+      "scene": "SC07",
+      "title": "제출 완료!",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "저녁 동아리실에서 제출 화면을 확인하며 안도하는 다섯 명을 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch04_submission_success.webp",
+          "description": "시연 영상 제출을 마치고 서로에게 수고했다고 인사합니다."
+        }
+      }
+    },
+    "ch05_final_prep_01": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC02",
+      "title": "마지막 준비로 분주한 아침",
+      "gallery_variants": [
+        "01"
+      ],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "동아리실에서 노트북, 사진, 문구, 일정표와 모형을 확인하는 다섯 명을 한 화면에 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_final_prep_01.png",
+          "description": "첫 네 독백 뒤부터 발표 장소로 이동하기 전까지 유지하는 마지막 준비 단체 컷."
+        }
+      }
+    },
+    "ch05_final_prep_02": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC02",
+      "title": "최종본 맞죠?",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "다림이 자료를 확인하는 모습과 곁에서 함께 확인하는 팀원들을 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_final_prep_02.webp",
+          "description": "다림이 제출본과 발표 자료가 같은 버전인지 확인해 달라고 부탁합니다."
+        }
+      }
+    },
+    "ch05_final_prep_03": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC02",
+      "title": "긴장이 조금 풀렸다",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "발표 자료가 놓인 동아리실에서 함께 웃는 다섯 명을 보여 줍니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_final_prep_03.webp",
+          "description": "다들 잠깐 웃음을 터뜨리고 주인공은 준비한 발표 자료를 살펴봅니다."
+        }
+      }
+    },
+    "ch05_team_departure": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC02",
+      "title": "평가실로 출발",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "동아리실 문을 지나 나란히 복도로 향하는 모습을 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_team_departure.webp",
+          "description": "발표 자료를 챙긴 팀원들이 평가실을 향해 출발합니다."
+        }
+      }
+    },
+    "ch05_rival_hallway_01": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC03",
+      "title": "평가실 앞의 두 팀",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "평가실 앞 복도에서 자료를 든 두 팀이 서로 인사합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_rival_hallway_01.webp",
+          "description": "평가를 기다리던 라이벌 팀을 만나 준비가 잘됐는지 묻습니다."
+        }
+      }
+    },
+    "ch05_rival_hallway_02": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC03",
+      "title": "복도에 퍼진 웃음",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "웃음이 번지는 두 팀 사이에서 자료를 다시 살피는 협합을 보여 줍니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_rival_hallway_02.webp",
+          "description": "두 팀이 장난을 주고받은 뒤 협합이 다시 발표 자료를 확인합니다."
+        }
+      }
+    },
+    "ch05_result_success": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC05",
+      "title": "정말요?!",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "학생회관 앞 휴게 공간에서 평가 결과를 들은 다섯 명의 반응을 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_result_success.webp",
+          "description": "좋은 결과에 시아가 소리치고 로만은 놀라 되묻습니다."
+        }
+      }
+    },
+    "ch05_rival_after_result": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC05",
+      "title": "결과를 듣고 나서",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "멀어지는 라이벌 팀과 모형과 운영표를 펼치는 우리 팀을 한 장면에 담습니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_rival_after_result.webp",
+          "description": "두 팀은 결과를 받아들이고 각자 다음 준비로 돌아갑니다."
+        }
+      }
+    },
+    "ch05_booth_install_01": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC08",
+      "title": "마지막 설치 시작!",
+      "gallery_variants": [
+        "01"
+      ],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "상자를 든 시아와 사진 정리를 준비하는 오므를 중심으로 보여 줍니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_booth_install_01.png",
+          "description": "설치 시작부터 각자의 일을 시작하는 다음 컷 전까지 유지하는 시아와 오므의 준비 모습."
+        }
+      }
+    },
+    "ch05_booth_install_02": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC08",
+      "title": "각자의 자리에서",
+      "gallery_variants": [
+        "01"
+      ],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "인물 없이 질문 카드, 글, 사진과 비워 둔 통로가 보이는 전시 공간을 보여 줍니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_booth_install_02.png",
+          "description": "각자의 설치 작업과 완성된 우리 팀 부스를 보여 주는 전시 공간 컷."
+        }
+      }
+    },
+    "ch05_rival_install_comedy": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC08",
+      "title": "옆 부스도 똑같네",
+      "gallery_variants": [
+        "01"
+      ],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "인물 없이 쿠키 진열대, 안내판과 포장 샘플이 놓인 라이벌 부스를 보여 줍니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_rival_install_comedy.png",
+          "description": "옆 부스 소란 뒤부터 노을로 넘어가기 전까지 유지하는 라이벌 팀 부스 컷."
+        }
+      }
+    },
+    "ch05_joint_install_final": {
+      "requires_art": true,
+      "chapter": 5,
+      "scene": "SC08",
+      "title": "함께 설치한 부스",
+      "gallery_variants": [],
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi",
+        "ski",
+        "hyeophap",
+        "hess",
+        "bambam"
+      ],
+      "layout": "설치를 함께 마친 두 팀을 완성된 부스 주변에 배치합니다.",
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch05_joint_install_final.webp",
+          "description": "경쟁으로 시작했던 두 팀이 함께 일을 마무리하며 다시 웃습니다."
+        }
+      }
+    },
+    "ch06_festival_opening": {
+      "chapter": 6,
+      "scene": "SC01",
+      "title": "드디어 축제다!",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "부스 앞의 다섯 히로인. 하단 대사창을 유지하고 한 장의 완성된 일러스트로 표시합니다.",
+      "gallery_variants": [
+        "01"
+      ],
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/sd_events/ch06_festival_opening_01.png",
+          "description": "개장 직전 마지막 점검을 하는 다섯 사람."
+        }
+      }
+    },
+    "ch07_reunion_comedy": {
+      "chapter": 7,
+      "scene": "SC03",
+      "title": "축제가 끝나도 함께",
+      "type": "C",
+      "cast": [
+        "roman",
+        "sia",
+        "darim",
+        "omu",
+        "lumi"
+      ],
+      "layout": "카페에 모인 다섯 사람을 한 장의 완성된 SD 일러스트로 표시합니다.",
+      "gallery_variants": [
+        "01"
+      ],
+      "requires_art": true,
+      "variants": {
+        "01": {
+          "image": "images/cg/ch07/reunion_comedy_01.png",
+          "description": "축제가 끝난 뒤 카페에서 다시 만난 다섯 사람의 소란스러운 오후."
+        }
+      }
+    }
+  }
+}

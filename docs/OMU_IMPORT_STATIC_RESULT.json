@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "episodes": [
+    {
+      "episode": "O01",
+      "dialogues": 708,
+      "scenes": 8,
+      "menus": 2,
+      "menu_outcomes": 6,
+      "condition_blocks": 1,
+      "source_sha256": "3ad23a26238f58c2385ab08b1de0f05cec972bc05e0457cd656eae49e7bcbfc9",
+      "source_byte_identical": true,
+      "source_lines_classified": 1285,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "O02",
+      "dialogues": 667,
+      "scenes": 8,
+      "menus": 2,
+      "menu_outcomes": 6,
+      "condition_blocks": 1,
+      "source_sha256": "7fcf6195ddb226afc07a29123f394437fba51917251a400d92c7996fac27767a",
+      "source_byte_identical": true,
+      "source_lines_classified": 1224,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "O03",
+      "dialogues": 804,
+      "scenes": 8,
+      "menus": 3,
+      "menu_outcomes": 9,
+      "condition_blocks": 0,
+      "source_sha256": "4dc3616365e20bcc7d03ea3433cc87c770cdaf335d8e66404b0997e22c2842bc",
+      "source_byte_identical": true,
+      "source_lines_classified": 1460,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "O04",
+      "dialogues": 668,
+      "scenes": 8,
+      "menus": 3,
+      "menu_outcomes": 9,
+      "condition_blocks": 5,
+      "source_sha256": "2e42d96055533e21e3e994173fdcc54348a290b2efad1bc46c56a4ce52acc779",
+      "source_byte_identical": true,
+      "source_lines_classified": 1250,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "O05",
+      "dialogues": 864,
+      "scenes": 8,
+      "menus": 4,
+      "menu_outcomes": 13,
+      "condition_blocks": 3,
+      "source_sha256": "f140113cc5c500e5b845a0a9b2e524c59ccc94a4c878d28c88c3658d63384a92",
+      "source_byte_identical": true,
+      "source_lines_classified": 1611,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "O06",
+      "dialogues": 1024,
+      "scenes": 12,
+      "menus": 1,
+      "menu_outcomes": 4,
+      "condition_blocks": 0,
+      "source_sha256": "71a74cb5087ce8be1ce447709d7f8c40df77152c8168e53cf04bacaa354ce82a",
+      "source_byte_identical": true,
+      "source_lines_classified": 1847,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    },
+    {
+      "episode": "OSECRET",
+      "dialogues": 623,
+      "scenes": 5,
+      "menus": 1,
+      "menu_outcomes": 3,
+      "condition_blocks": 0,
+      "source_sha256": "d2407b12c7373fd268041fbeb0daffccbfcd618324d06a0139a0acc46c9a4422",
+      "source_byte_identical": true,
+      "source_lines_classified": 1176,
+      "unemitted_quoted_lines": [],
+      "no_direct_score_math_or_standing_composition": true
+    }
+  ],
+  "total_dialogues": 5358,
+  "total_scenes": 57,
+  "menus": 16,
+  "menu_outcomes": 50,
+  "condition_blocks": 10,
+  "condition_scalar_names_declared": [
+    "omu_o01_last_photo",
+    "omu_o04_boundary_choice",
+    "omu_o04_conflict_resolved",
+    "omu_o04_photo_sharing",
+    "omu_o04_schedule_response",
+    "omu_o05_conflict_resolved"
+  ],
+  "duplicate_omu_defaults": 0,
+  "duplicate_omu_labels": 0,
+  "draft_source_lines": 7,
+  "draft_later_sent_once": {
+    "episode": "O03",
+    "line": 2558,
+    "stable_key": "303:omu_o03:L2558"
+  },
+  "remaining_draft_lines_never_sent": 6,
+  "o03_reply_speakers": [
+    "mc",
+    "mc"
+  ],
+  "phone_join_cases": 3,
+  "story_card_lines": 12,
+  "secret_cg_start_line": 302,
+  "secret_cg_end_line": 565,
+  "provided_art_only": true,
+  "standing_calls_added": 0,
+  "original_r05_replaced_by_confirmed_51938_byte_o05": true,
+  "runtime_validation": "Parent native QA after source freeze; this report certifies importer/source structure only.",
+  "condition_scalar_types": {
+    "omu_o01_last_photo": {
+      "expected_type": "str",
+      "authored_assignments_checked": 3,
+      "default": null,
+      "safe_scalar_comparison": true
+    },
+    "omu_o04_schedule_response": {
+      "expected_type": "str",
+      "authored_assignments_checked": 3,
+      "default": null,
+      "safe_scalar_comparison": true
+    },
+    "omu_o04_photo_sharing": {
+      "expected_type": "str",
+      "authored_assignments_checked": 3,
+      "default": null,
+      "safe_scalar_comparison": true
+    },
+    "omu_o04_boundary_choice": {
+      "expected_type": "str",
+      "authored_assignments_checked": 3,
+      "default": null,
+      "safe_scalar_comparison": true
+    },
+    "omu_o04_conflict_resolved": {
+      "expected_type": "bool",
+      "authored_assignments_checked": 2,
+      "default": false,
+      "safe_scalar_comparison": true
+    },
+    "omu_o05_conflict_resolved": {
+      "expected_type": "bool",
+      "authored_assignments_checked": 4,
+      "default": false,
+      "safe_scalar_comparison": true
+    }
+  },
+  "regeneration_idempotent": true,
+  "final_owned_source_hashes": {
+    "omu_o01.rpy": "22f82a6839b44cc10ad488cf3694abc81ccdcd60bc1b03dbf4c939abc3dcc298",
+    "omu_o02.rpy": "dd1cb514f6d898d4b48c3b2b9e173ff68c7d19beb001666fe2fe7bb345b1fe7d",
+    "omu_o03.rpy": "2d8835e5da87bf6ce551dae2b810755b7760a71d4eac31527f9efeb5541ef256",
+    "omu_o04.rpy": "80e39bfc7e2a3a26fa0a25c0a08837cc82229f8f79b76024f3c714e8959cbd80",
+    "omu_o05.rpy": "c3390564d48e9b603397f509d4d188efec6763861907dcd46b09034395c7cec3",
+    "omu_o06.rpy": "63939ae62c118694db5a3fe14b7f648fd125cbd2113b4622b1e56cfe6d16a540",
+    "omu_secret.rpy": "a430fa4d87f49c575d842909d462037df2f758a1e7f3281ff6972815b700fbb9"
+  }
+}

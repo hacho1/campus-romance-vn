@@ -1,0 +1,518 @@
+{
+  "schema": 2,
+  "unit": 5,
+  "choices": {
+    "darim_d01_choice01_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "서로 역할을 나누고 상대가 준비한 계획을 믿음.",
+      "chapter": "D01",
+      "text": "제가 위험한 쪽을 맡을게요. 선배는 준비하신 계획을 이어가 주세요.",
+      "source_line": 410
+    },
+    "darim_d01_choice01_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "방법을 함께 비교하며 공동으로 결정함.",
+      "chapter": "D01",
+      "text": "서로 생각한 방법을 비교해서 결정해볼까요?",
+      "source_line": 426
+    },
+    "darim_d01_choice01_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "결정을 전부 맡기지만 결국 다음에는 함께 정하자는 말을 받아들임. 원고 무보상.",
+      "chapter": "D01",
+      "text": "이번에는 선배가 전부 결정해 주세요.",
+      "source_line": 446
+    },
+    "darim_d01_choice02_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "늘 믿음직해야 한다는 부담을 내려놓고 쉬도록 응원함.",
+      "chapter": "D01",
+      "text": "오늘은 믿음직한 선배보다 그냥 다림 선배로 쉬셔도 돼요.",
+      "source_line": 708
+    },
+    "darim_d01_choice02_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "원할 때 요청한 만큼 도울 수 있고 원하지 않으면 함께만 있어도 된다고 말함.",
+      "chapter": "D01",
+      "text": "필요하실 때 제가 할 수 있는 일이 있으면 말씀해 주세요.",
+      "source_line": 732
+    },
+    "darim_d01_choice02_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "유능해야 한다는 기대를 표현하지만 원고에서 통제 행동이나 점수 변화로 취급하지 않음.",
+      "chapter": "D01",
+      "text": "선배는 워낙 잘하시니까 앞으로도 다 해결하실 것 같아요.",
+      "source_line": 750
+    },
+    "darim_d02_choice01_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "다림이 부탁한 부분만 확인하고 도움의 범위를 다림이 결정하게 함.",
+      "chapter": "D02",
+      "text": "선배가 부탁하신 부분만 같이 확인할게요.",
+      "source_line": 1065
+    },
+    "darim_d02_choice01_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "팀원과 역할을 다시 정하도록 응원하고 발표 청취만 제안함.",
+      "chapter": "D02",
+      "text": "팀원분과 역할을 다시 정해보시는 건 어떨까요?",
+      "source_line": 1095
+    },
+    "darim_d02_choice01_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "원하지 않은 자료 정리를 대신 결정하려는 과도한 도움 제안.",
+      "chapter": "D02",
+      "text": "제가 자료를 전부 정리해 드릴게요. 선배는 쉬세요.",
+      "source_line": 1124
+    },
+    "darim_d02_choice02_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "다림이 먼저 요청한 함께하는 시간을 받아들임.",
+      "chapter": "D02",
+      "text": "네. 저도 선배랑 조금 더 있고 싶어요.",
+      "source_line": 1315
+    },
+    "darim_d02_choice02_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "가고 싶은 곳을 다림이 선택하도록 함께 정함.",
+      "chapter": "D02",
+      "text": "괜찮아요. 선배가 가고 싶은 곳으로 같이 가요.",
+      "source_line": 1338
+    },
+    "darim_d02_choice02_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "조금 더 같이 있고 싶다는 다림의 요청을 귀가 결정으로 바꾸려 함.",
+      "chapter": "D02",
+      "text": "쉬셔야 하니까 제가 집까지 데려다드릴게요.",
+      "source_line": 1361
+    },
+    "darim_d03_choice01_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "하고 싶은 일을 말하고 서로 생각을 나누며 정하자고 제안함.",
+      "chapter": "D03",
+      "text": "앞으로도 선배가 하고 싶은 걸 편하게 말씀해 주세요.",
+      "source_line": 799
+    },
+    "darim_d03_choice01_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "오늘 초대한 다림의 새로운 선택을 존중함.",
+      "chapter": "D03",
+      "text": "오늘은 선배가 원하는 대로 보내요.",
+      "source_line": 823
+    },
+    "darim_d03_choice01_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "원래 일정대로 가자는 아쉬운 답변이지만 원고는 점수 변화 없음을 명시함.",
+      "chapter": "D03",
+      "text": "준비하신 계획도 있으니까 원래 일정대로 가는 게 좋겠어요.",
+      "source_line": 849
+    },
+    "darim_d03_choice02_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "함께하는 즐거움과 다음 만남을 기다리는 마음을 솔직히 전함.",
+      "chapter": "D03",
+      "text": "선배랑 있으면 즐겁고, 다음에 만날 날이 기다려져요.",
+      "source_line": 1299
+    },
+    "darim_d03_choice02_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "유능함이나 돌봄 역할만이 아닌 다림이라는 사람 전체를 좋아함.",
+      "chapter": "D03",
+      "text": "선배가 저를 챙겨주시지 않아도 함께 있고 싶어요.",
+      "source_line": 1330
+    },
+    "darim_d03_choice02_c": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "다림이 하고 싶은 일을 함께 선택하는 시간이 좋다고 전함.",
+      "chapter": "D03",
+      "text": "오늘처럼 선배가 하고 싶은 걸 함께할 수 있어서 좋아요.",
+      "source_line": 1364
+    },
+    "darim_d03_choice03_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "직접적인 진심으로 고백함. 다른 고백 표현과 같은 보상.",
+      "chapter": "D03",
+      "text": "저도 다림 선배를 좋아해요.",
+      "source_line": 1682
+    },
+    "darim_d03_choice03_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "잘하는 모습과 편하게 웃는 모습 모두 좋다고 고백함.",
+      "chapter": "D03",
+      "text": "선배가 잘하시는 모습뿐 아니라, 편하게 웃으시는 모습도 좋아요.",
+      "source_line": 1708
+    },
+    "darim_d03_choice03_c": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "평범한 하루를 함께 보내고 싶다는 진심으로 고백함.",
+      "chapter": "D03",
+      "text": "저도 앞으로 선배와 평범한 하루를 더 많이 보내고 싶어요.",
+      "source_line": 1741
+    },
+    "darim_d04_choice01_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "도움 거절을 존중하고 필요할 때 요청하도록 기다림.",
+      "chapter": "D04",
+      "text": "필요해지시면 말씀해 주세요. 지금은 선배가 하시는 걸 응원할게요.",
+      "source_line": 610
+    },
+    "darim_d04_choice01_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "다림의 과제를 대신하지 않고 나란히 자기 일을 해도 되는지 물음.",
+      "chapter": "D04",
+      "text": "옆에서 제 과제를 하면서 같이 있어도 될까요?",
+      "source_line": 633
+    },
+    "darim_d04_choice01_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "다림이 거절했는데도 자료 정리를 대신 하겠다고 고집함.",
+      "chapter": "D04",
+      "text": "선배가 힘드실 것 같아서 제가 자료를 대신 정리할게요.",
+      "source_line": 657
+    },
+    "darim_d04_choice02_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "다림이 스스로 정한 토론 모임 참석을 응원함.",
+      "chapter": "D04",
+      "text": "선배가 결정하신 일이니까 응원할게요.",
+      "source_line": 952
+    },
+    "darim_d04_choice02_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "참석 여부를 대신 정하지 않고 데이트 일정을 유연하게 제안함.",
+      "chapter": "D04",
+      "text": "끝나고 피곤하시면 일정은 다음에 잡아요.",
+      "source_line": 984
+    },
+    "darim_d04_choice02_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "다림 의사를 먼저 묻지 않고 담당자에게 불참 가능성을 연락하려 함.",
+      "chapter": "D04",
+      "text": "선배가 무리하실까 봐 담당자에게 불참 가능 여부를 물어볼게요.",
+      "source_line": 1015
+    },
+    "darim_d04_choice03_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "걱정을 앞세워 결정권을 존중하지 못했음을 인정하고 갈등을 바로잡음.",
+      "chapter": "D04",
+      "text": "걱정이 앞서서 선배의 결정을 존중하지 못했어요.",
+      "source_line": 1325
+    },
+    "darim_d04_choice03_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "원하는 도움과 원하지 않는 도움을 구분하겠다고 약속함.",
+      "chapter": "D04",
+      "text": "선배가 원하시는 도움과 원하지 않으시는 도움을 구분할게요.",
+      "source_line": 1361
+    },
+    "darim_d04_choice03_c": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "다림을 위한다는 이유로 본인이 대신 결정하려 함.",
+      "chapter": "D04",
+      "text": "선배를 위해서라면 제가 조금 더 결정해 드려야 할 것 같아요.",
+      "source_line": 1390
+    },
+    "darim_d04_choice03_d": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "다림이 표현한 불편함을 예민함으로 치부함.",
+      "chapter": "D04",
+      "text": "제가 걱정하는 걸 너무 예민하게 받아들이시는 것 같아요.",
+      "source_line": 1435
+    },
+    "darim_d05_choice01_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "요청한 오탈자 검토만 제안하고 지원서의 주도권을 지킴.",
+      "chapter": "D05",
+      "text": "오탈자 확인이 필요하시면 제가 같이 봐드릴게요.",
+      "source_line": 536
+    },
+    "darim_d05_choice01_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "다림이 준비한 지원을 믿고 응원함.",
+      "chapter": "D05",
+      "text": "선배가 직접 준비하신 거니까 저는 응원할게요.",
+      "source_line": 564
+    },
+    "darim_d05_choice01_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "다림의 지원서 내용을 더 안전하게 바꾸려 압박함.",
+      "chapter": "D05",
+      "text": "제가 지원서 내용을 수정해서 더 안전하게 만들어드릴게요.",
+      "source_line": 587
+    },
+    "darim_d05_choice02_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "프로젝트 정보를 본인에게 먼저 물어봄.",
+      "chapter": "D05",
+      "text": "선배가 이미 확인하셨는지 먼저 물어보자.",
+      "source_line": 886
+    },
+    "darim_d05_choice02_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "다림이 확인하고 선택한 지원임을 신뢰함.",
+      "chapter": "D05",
+      "text": "이번에는 선배가 직접 판단하시도록 두자.",
+      "source_line": 919
+    },
+    "darim_d05_choice02_c": {
+      "happy": {},
+      "bad": {},
+      "reason": "공개 페이지에 일반 안전 정보를 문의할 뿐 신청 변경이나 무단 취소는 하지 않음. 원고 무보상.",
+      "chapter": "D05",
+      "text": "걱정되는 내용을 담당자에게 직접 문의하자.",
+      "source_line": 939
+    },
+    "darim_d05_choice03_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "다림이 스스로 준비한 리허설과 동행 거절을 존중함.",
+      "chapter": "D05",
+      "text": "알겠어요. 선배가 편하신 방식으로 다녀오세요.",
+      "source_line": 1416
+    },
+    "darim_d05_choice03_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "불안을 솔직히 말하되 동행 여부와 도움 방식을 함께 정함.",
+      "chapter": "D05",
+      "text": "제가 걱정된다는 것도 이해해 주세요. 대신 어떻게 도울지 같이 정해요.",
+      "source_line": 1440
+    },
+    "darim_d05_choice03_c": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "걱정을 이유로 원하지 않는 동행을 강요함.",
+      "chapter": "D05",
+      "text": "선배가 걱정돼서 그러는 거니까 제가 같이 가는 게 맞아요.",
+      "source_line": 1469
+    },
+    "darim_d05_choice03_d": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "연인에게 허락받아야 하는 일정처럼 승인을 요구함.",
+      "chapter": "D05",
+      "text": "그런 일정은 미리 저와 상의하셔야 하는 거 아닌가요?",
+      "source_line": 1519
+    },
+    "darim_d05_choice04_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "선택을 제한하려 한 통제를 인정하고 결정권을 다림에게 돌려줌.",
+      "chapter": "D05",
+      "text": "선배를 걱정한다는 이유로 선택을 제한하려 했어요.",
+      "source_line": 1749
+    },
+    "darim_d05_choice04_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "자신의 불안을 다루되 다림의 행동을 대신 정하지 않기로 함.",
+      "chapter": "D05",
+      "text": "저도 불안한 마음을 솔직히 말하되, 결정은 선배에게 맡길게요.",
+      "source_line": 1788
+    },
+    "darim_d05_choice04_c": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "더 안전하다는 명분으로 다림의 선택을 대신하는 통제를 정당화함.",
+      "chapter": "D05",
+      "text": "제가 선배를 위해 결정하는 게 더 안전할 때도 있잖아요.",
+      "source_line": 1822
+    },
+    "darim_d05_choice04_d": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "거절이 자신에게 주는 상처를 앞세워 다림에게 죄책감 압박을 줌.",
+      "chapter": "D05",
+      "text": "선배가 제 말을 들어주지 않으시면 저도 어떻게 해야 할지 모르겠어요.",
+      "source_line": 1877
+    },
+    "darim_d06_choice01_a": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "다림의 혼자 쉬는 날을 존중하고 가능한 금요일에 만남.",
+      "chapter": "D06",
+      "text": "금요일 좋아요. 일요일에는 선배도 편하게 쉬세요.",
+      "source_line": 386
+    },
+    "darim_d06_choice01_b": {
+      "happy": {
+        "darim": 5
+      },
+      "bad": {},
+      "reason": "함께 있고 싶은 마음을 말하되 다림의 개인 시간을 존중함.",
+      "chapter": "D06",
+      "text": "일요일에도 보고 싶지만, 선배가 쉬고 싶으시면 금요일에 만나요.",
+      "source_line": 412
+    },
+    "darim_d06_choice01_c": {
+      "happy": {},
+      "bad": {
+        "darim": 5
+      },
+      "reason": "다림이 정한 혼자 쉬는 일정을 데이트로 바꾸도록 압박함.",
+      "chapter": "D06",
+      "text": "일요일은 저와 보내시면 안 될까요? 혼자 쉬는 건 다른 날 해도 되잖아요.",
+      "source_line": 444
+    },
+    "darim_d06_choice02_a": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "자율적인 선택을 존중하겠다고 책임을 인정함.",
+      "chapter": "D06",
+      "text": "선배가 스스로 선택하실 수 있도록 존중할게요.",
+      "source_line": 803
+    },
+    "darim_d06_choice02_b": {
+      "happy": {
+        "darim": 10
+      },
+      "bad": {},
+      "reason": "자기 불안을 솔직히 나누되 결정권은 다림에게 있음을 인정함.",
+      "chapter": "D06",
+      "text": "제가 불안할 때도 솔직하게 이야기하되, 결정은 선배에게 맡길게요.",
+      "source_line": 831
+    },
+    "darim_d06_choice02_c": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "보호를 이유로 대신 결정하는 통제를 다시 정당화함.",
+      "chapter": "D06",
+      "text": "선배를 지키기 위해서라면 제가 대신 결정할 때도 있어야 해요.",
+      "source_line": 860
+    },
+    "darim_d06_choice02_d": {
+      "happy": {},
+      "bad": {
+        "darim": 10
+      },
+      "reason": "자신의 상처를 이유로 다림의 거절에 죄책감을 줌.",
+      "chapter": "D06",
+      "text": "선배가 제 말을 계속 거절하시면 저도 상처받아요.",
+      "source_line": 909
+    }
+  }
+}

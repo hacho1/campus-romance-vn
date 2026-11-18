@@ -1,0 +1,30 @@
+[
+  {
+    "source": "D:\\CampusRomance_VN\\renpy_project\\game\\images\\cg\\ld_01_main_visual.webp",
+    "target": "assets/campus-main-visual.webp",
+    "bytes": 2444854,
+    "sha256": "e57aaa58c9c73a8c16948e952a8db3555fd834d718cfeca0a7b9386f25f84c98",
+    "byte_identical": true
+  },
+  {
+    "source": "D:\\CampusRomance_VN\\tests\\people_portraits_20261108\\screenshots\\students_main_menu.png",
+    "target": "assets/game-main-menu.png",
+    "bytes": 2998447,
+    "sha256": "9edf697dbfb9174a4911cdf90dff94520da5feb8be52a08e80ce9485281ab18f",
+    "byte_identical": true
+  },
+  {
+    "source": "D:\\CampusRomance_VN\\tests\\people_portraits_20261108\\screenshots\\heroine_roman_front.png",
+    "target": "assets/game-student-profile.png",
+    "bytes": 1944198,
+    "sha256": "713de86e509bc6c6ab303a536ac94a7ec18e29a5bf27e1977a496cc5b6985cd0",
+    "byte_identical": true
+  },
+  {
+    "source": "D:\\CampusRomance_VN\\tests\\people_portraits_20261108\\screenshots\\met_people_page_1.png",
+    "target": "assets/game-met-people.png",
+    "bytes": 2436365,
+    "sha256": "4138eabd842ac43dcd802237a8fc962dab7e320261af5d56e9d9d6550e5a64fd",
+    "byte_identical": true
+  }
+]

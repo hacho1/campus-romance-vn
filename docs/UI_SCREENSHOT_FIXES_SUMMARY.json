@@ -1,0 +1,119 @@
+{
+  "status": "source_ui_verification_passed_distribution_deferred",
+  "updated_at": "2026-11-05T00:20:58+09:00",
+  "project": "D:\\CampusRomance_VN\\renpy_project",
+  "distribution": "deferred_at_user_request",
+  "confirmed_native_cases": 113,
+  "confirmed_native_assertions": 464,
+  "native_suites": [
+    {
+      "name": "screenshot_polish",
+      "cases": 12,
+      "assertions": 37,
+      "status": "passed",
+      "log": "tests/screenshot-polish-final.txt",
+      "sha256": "19043829d7170635b890018a1efadc9e3b2f6de4e9775457a851b9c7febebc03"
+    },
+    {
+      "name": "application_feedback",
+      "cases": 6,
+      "assertions": 51,
+      "status": "passed",
+      "log": "tests/application-feedback-final.txt",
+      "sha256": "efd9cd59caa868d45943f019fab352f98b236e9891df1f5a5e620e7624857987"
+    },
+    {
+      "name": "campus_ui",
+      "cases": 21,
+      "assertions": 223,
+      "status": "passed",
+      "log": "tests/campus-ui-screenshot-review-final.txt",
+      "sha256": "48c00633764e1d5ce35fe2c22624ebe51a3385ccc120f376f7728133eccfa863"
+    },
+    {
+      "name": "typography_layout",
+      "cases": 74,
+      "assertions": 153,
+      "status": "passed",
+      "log": "tests/layout-screenshot-review-final.txt",
+      "sha256": "16b80fea3483de3b9533a13fbf0fb04e5793864c8de2cc82c4b671ab944c4970"
+    }
+  ],
+  "pixel_ink_centre": {
+    "status": "passed",
+    "checked": 87,
+    "failed": 0,
+    "report": "tests/screenshot-polish-ink-results.json",
+    "font_metric_boxes_used_as_ink_proof": false
+  },
+  "ui_state_and_contrast_records": {
+    "checked": 176,
+    "failed": 0,
+    "report": "tests/screenshot-polish-checks.json"
+  },
+  "player_save_files": {
+    "status": "unchanged_at_recorded_check",
+    "files": 33,
+    "game_saves": 19,
+    "project_saves": 14,
+    "restoration_or_deletion_performed": false,
+    "before": "tests/screenshot-review-player-saves-before.json",
+    "after": "tests/screenshot-review-player-saves-after.json"
+  },
+  "desktop_shortcut": {
+    "status": "target_and_working_directory_verified",
+    "target": "D:\\CampusRomance_VN\\START_GAME.cmd",
+    "working_directory": "D:\\CampusRomance_VN"
+  },
+  "runtime_control_assets": {
+    "format": "PNG",
+    "folder": "renpy_project/game/images/ui/controls",
+    "editable_svg_retained": true,
+    "generator": "tools/build_control_surfaces.py",
+    "optical_text_offset": [
+      2,
+      -2
+    ]
+  },
+  "broad_layout": {
+    "status": "passed",
+    "expected_cases": 74,
+    "log": "tests/layout-screenshot-review-final.txt",
+    "excluded_attempt": "Software-renderer startup stopped before any layout assertions; developer-mode-off attempt also excluded. Only final gl2+CAMPUS_DEVELOPER=1 pass is counted.",
+    "cases": 74,
+    "assertions": 153,
+    "captures": 94,
+    "rendered_text_layouts": 1187,
+    "layout_issues": 0,
+    "report": "tests/typography-layout-results.json",
+    "report_sha256": "6f529bfde878b6b46a43ee993dcfa8fe777621057ced2c85a4478f1a61caffd8",
+    "exit_code": 0
+  },
+  "lint": {
+    "status": "passed",
+    "exit_code": 0,
+    "log": "tests/lint-screenshot-review.txt",
+    "sha256": "bd43ffaebe7095ff1c9b1642b8a0398a3b5671dbfa8209b3dc8125b2bd8d7af6",
+    "qa_statistics": {
+      "dialogue_blocks": 3097,
+      "menus": 36,
+      "screens": 50
+    },
+    "warning_or_error_diagnostics": 0
+  },
+  "historical_reports_unchanged": [
+    "tests/VERIFICATION_0.3.0.md",
+    "tests/VERIFICATION_0.2.0.md"
+  ],
+  "reproduction_environment": {
+    "CAMPUS_DEVELOPER": "1",
+    "RENPY_RENDERER": "gl2",
+    "CAMPUS_SAVE_DIR": "D:\\CampusRomance_VN\\tests\\saves-typography-audit",
+    "project": "D:\\CampusRomance_VN\\tests\\ui_refresh_fixture\\renpy_project"
+  },
+  "limitations": [
+    "Independent distribution EXE deferred by user; source SDK execution is the verified target.",
+    "The render audit covers the recorded94 captures/1187 layouts; it is not a claim about every possible future string or save.",
+    "Historical diagnostic attempts and previous0.2/0.3 counts are not added to this total."
+  ]
+}

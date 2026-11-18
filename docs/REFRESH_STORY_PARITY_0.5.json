@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "files": 14,
+  "dialogue_and_choice_statements": 11269,
+  "method": "Exact ordered say/choice source statements; excludes visual/time/reward code.",
+  "results": [
+    {
+      "file": "chapter01_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter01_official.rpy",
+      "statements": 874,
+      "exact_ordered_match": true,
+      "current_sha256": "5ea9b20742e1b4f116f1bb2fb5cd9d9c98ce09d10a130e4f1580d4b49a22fbd6"
+    },
+    {
+      "file": "chapter02_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter02_official.rpy",
+      "statements": 1023,
+      "exact_ordered_match": true,
+      "current_sha256": "605f12d31d0165a28dac2f17e5c35ce5c785668e8ab8fd1db4e37cd969e60d17"
+    },
+    {
+      "file": "chapter03_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter03_official.rpy",
+      "statements": 1063,
+      "exact_ordered_match": true,
+      "current_sha256": "618aff63a1ddae7cbfed4b2ce66df54dbd599f92a6df8220f79108aec4eeb06f"
+    },
+    {
+      "file": "chapter04_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter04_official.rpy",
+      "statements": 1026,
+      "exact_ordered_match": true,
+      "current_sha256": "30c8f05875b9e45174003797b56effcfe45384f6cdce1a00e2f7e3f88cfe8d6d"
+    },
+    {
+      "file": "chapter05_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter05_official.rpy",
+      "statements": 984,
+      "exact_ordered_match": true,
+      "current_sha256": "8fa4cdb194e590824e5ec6177ef5fc804e038688613f91bfdd23d20d13f593ca"
+    },
+    {
+      "file": "chapter06_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter06_official.rpy",
+      "statements": 1226,
+      "exact_ordered_match": true,
+      "current_sha256": "b75c6398e4712ac31b6db3a076569cc31cbfa90a9fbd53670e11a38aadecf8c5"
+    },
+    {
+      "file": "chapter07_official.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\chapter07_official.rpy",
+      "statements": 875,
+      "exact_ordered_match": true,
+      "current_sha256": "1b5030a7c52b614da516fa434e4c9d8fe8486b26499d91dc7eabeff45dd68d49"
+    },
+    {
+      "file": "roman_r01.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r01.rpy",
+      "statements": 546,
+      "exact_ordered_match": true,
+      "current_sha256": "c27cece8236da2cedc25f41b489431975303d61b00e248f0ea4ee019539961b9"
+    },
+    {
+      "file": "roman_r02.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r02.rpy",
+      "statements": 719,
+      "exact_ordered_match": true,
+      "current_sha256": "719f73585b2901a8fb667417d6b5797a0d2858b6995f9e7b6481a9280dbaeddc"
+    },
+    {
+      "file": "roman_r03.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r03.rpy",
+      "statements": 634,
+      "exact_ordered_match": true,
+      "current_sha256": "e477f35f6ff1638034da33b8cb1c8e2857bac69a93428d49dbcae07b2f50b394"
+    },
+    {
+      "file": "roman_r04.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r04.rpy",
+      "statements": 661,
+      "exact_ordered_match": true,
+      "current_sha256": "3d57798545cac2a8a7d03f7cd9eec0b15419110773d97618569b28e9c8f0c4b9"
+    },
+    {
+      "file": "roman_r05.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r05.rpy",
+      "statements": 637,
+      "exact_ordered_match": true,
+      "current_sha256": "3aed7d8347e8845429baacc40925b3700096508b2212a257ce7b8c4a8c7211a0"
+    },
+    {
+      "file": "roman_r06.rpy",
+      "baseline": "D:\\CampusRomance_VN\\backups\\ui_system_refresh_20261108\\phone\\game\\routes\\roman_r06.rpy",
+      "statements": 662,
+      "exact_ordered_match": true,
+      "current_sha256": "1020470cb62dae53471d1c1bfbb38197b85f0ba6a98733b10be4fcb3fa6cb1ca"
+    },
+    {
+      "file": "roman_secret.rpy",
+      "baseline": "D:\\CampusRomance_VN\\tests\\story_release_20261108\\candidate\\game\\routes\\roman_secret.rpy",
+      "statements": 339,
+      "exact_ordered_match": true,
+      "current_sha256": "129c690642443533959a54c5667352c62b4fd0573bc209396056da7a2d204ea5"
+    }
+  ]
+}

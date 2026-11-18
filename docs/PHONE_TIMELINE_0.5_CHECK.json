@@ -1,0 +1,81 @@
+{
+  "pass": true,
+  "assertions": 41,
+  "checks": [
+    "Morning CH06 authored clock",
+    "Night CH05 authored clock and day",
+    "Roman episode avoids chapter-one fallback",
+    "Opening another room preserves clock",
+    "Roman bubble right and protagonist left",
+    "Roman contact title and avatar",
+    "Explicit perspective badge",
+    "Protagonist incoming unread in Roman POV",
+    "Recorded day and perspective",
+    "New scene resets player POV",
+    "Old history remains unchanged",
+    "Yesterday date separator",
+    "Today date separator",
+    "Legacy loaded statement infers Roman POV",
+    "Existing guard preserved: phone_allow_dismiss",
+    "Existing guard preserved: phone_afm_allow",
+    "Existing guard preserved: phone_repair_ch07_greeting",
+    "Existing guard preserved: phone_gate_will_load",
+    "Existing guard preserved: phone_gate_start_interact",
+    "Existing guard preserved: phone_is_replaying_choice",
+    "Dialogue unchanged: chapter01_official.rpy",
+    "Dialogue unchanged: chapter02_official.rpy",
+    "Dialogue unchanged: chapter03_official.rpy",
+    "Dialogue unchanged: chapter04_official.rpy",
+    "Dialogue unchanged: chapter05_official.rpy",
+    "Dialogue unchanged: roman_r01.rpy",
+    "Dialogue unchanged: roman_r02.rpy",
+    "Dialogue unchanged: roman_r03.rpy",
+    "Dialogue unchanged: roman_r04.rpy",
+    "Dialogue unchanged: roman_r05.rpy",
+    "Dialogue unchanged: roman_r06.rpy",
+    "Dialogue unchanged: chapter06_official.rpy",
+    "Dialogue unchanged: chapter07_official.rpy",
+    "Fourteen episode timelines",
+    "No operating-system clock",
+    "Exact same-day POV recap references actual message",
+    "POV recap does not suppress another day",
+    "POV recap does not suppress another scene",
+    "POV recap does not suppress other text",
+    "18.9 percent phone enlargement",
+    "Phone and voiceover disjoint"
+  ],
+  "dialogue_counts_unchanged": {
+    "chapter01_official.rpy": 845,
+    "chapter02_official.rpy": 991,
+    "chapter03_official.rpy": 1034,
+    "chapter04_official.rpy": 1003,
+    "chapter05_official.rpy": 976,
+    "roman_r01.rpy": 537,
+    "roman_r02.rpy": 713,
+    "roman_r03.rpy": 628,
+    "roman_r04.rpy": 655,
+    "roman_r05.rpy": 631,
+    "roman_r06.rpy": 659,
+    "chapter06_official.rpy": 1223,
+    "chapter07_official.rpy": 868
+  },
+  "geometry": {
+    "screen": [
+      1920,
+      1080
+    ],
+    "phone": [
+      650,
+      18,
+      580.8,
+      895.84
+    ],
+    "voiceover": [
+      60,
+      940,
+      1800,
+      126
+    ],
+    "enlargement_percent": 18.92
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "roman_happy": {
+    "heroine": "roman",
+    "kind": "happy",
+    "title": "우리만의 문장",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "roman_happy_end_complete"
+      ],
+      "notes": "R06의 누적 관계 선택과 마지막 경계 선택으로 판정합니다."
+    }
+  },
+  "roman_bad": {
+    "heroine": "roman",
+    "kind": "bad",
+    "title": "마지막 문장은 당신뿐",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "roman_bad_end_complete"
+      ],
+      "notes": "R06의 누적 관계 선택과 마지막 경계 선택으로 판정합니다."
+    }
+  },
+  "roman_secret": {
+    "heroine": "roman",
+    "kind": "secret",
+    "title": "선물은 저인데… 먼저 좀 풀어주세요",
+    "implemented": true,
+    "secret_category": "after_story",
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "roman_secret_after_complete"
+      ],
+      "notes": "로만 해피 엔딩 완료 후 엔딩 화면에서 별도 플레이합니다.",
+      "required_ending": "roman_happy"
+    }
+  },
+  "sia_happy": {
+    "heroine": "sia",
+    "kind": "happy",
+    "title": "우리의 다음 컷",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "sia_happy_end_complete"
+      ],
+      "notes": "시아 S06의 누적 선택·회복 행동·마지막 대화로 판정합니다."
+    }
+  },
+  "sia_bad": {
+    "heroine": "sia",
+    "kind": "bad",
+    "title": "답장 없는 마지막 컷",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "sia_bad_end_complete"
+      ],
+      "notes": "시아 S06의 누적 선택·회복 행동·마지막 대화로 판정합니다."
+    }
+  },
+  "sia_secret": {
+    "heroine": "sia",
+    "kind": "secret",
+    "title": "위에서 내려다보지 마!",
+    "implemented": true,
+    "secret_category": "after_story",
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "sia_secret_after_complete"
+      ],
+      "notes": "시아 해피 엔딩 완료 후 엔딩 화면에서 별도로 플레이합니다.",
+      "required_ending": "sia_happy"
+    }
+  },
+  "darim_happy": {
+    "heroine": "darim",
+    "kind": "happy",
+    "title": "나란히 걷는 우리",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "darim_happy_end_complete"
+      ],
+      "notes": "다림 D01~D06의 누적 관계 선택·경계 존중·실제 회복 행동과 마지막 대화로 판정합니다."
+    }
+  },
+  "darim_bad": {
+    "heroine": "darim",
+    "kind": "bad",
+    "title": "당신이 정해준 하루",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "darim_bad_end_complete"
+      ],
+      "notes": "다림 D01~D06의 누적 관계 선택·경계 존중·실제 회복 행동과 마지막 대화로 판정합니다."
+    }
+  },
+  "darim_secret": {
+    "heroine": "darim",
+    "kind": "secret",
+    "title": "이번에는 제가 놀릴게요",
+    "implemented": true,
+    "secret_category": "after_story",
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "darim_secret_after_complete"
+      ],
+      "notes": "다림 해피 엔딩 완료 후 별도로 읽는 무보상 애프터입니다. 시크릿 완료 뒤 CG가 수집됩니다.",
+      "required_ending": "darim_happy"
+    }
+  },
+  "omu_happy": {
+    "heroine": "omu",
+    "kind": "happy",
+    "title": "사진보다 선명한 너",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "omu_happy_end_complete"
+      ],
+      "notes": "O04~O06의 실제 선택·기억 왜곡 이력·회복 대화와 마지막 답변으로 판정합니다."
+    }
+  },
+  "omu_bad": {
+    "heroine": "omu",
+    "kind": "bad",
+    "title": "흐려진 나의 시선",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "omu_bad_end_complete"
+      ],
+      "notes": "O04~O06의 실제 선택·기억 왜곡 이력·회복 대화와 마지막 답변으로 판정합니다."
+    }
+  },
+  "omu_secret": {
+    "heroine": "omu",
+    "kind": "secret",
+    "title": "오늘 하루만 메이드",
+    "implemented": true,
+    "secret_category": "after_story",
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "omu_secret_after_complete"
+      ],
+      "notes": "오므 해피 엔딩 이후 별도 플레이합니다.",
+      "required_ending": "omu_happy"
+    }
+  },
+  "lumi_happy": {
+    "heroine": "lumi",
+    "kind": "happy",
+    "title": "미완성이라서 아름다운",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "harin_happy_end_complete"
+      ],
+      "notes": "H01~H06 누적 선택·실제 갈등 해결·마지막 대화로 판정합니다."
+    }
+  },
+  "lumi_bad": {
+    "heroine": "lumi",
+    "kind": "bad",
+    "title": "완벽한 타인",
+    "implemented": true,
+    "secret_category": null,
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "harin_bad_end_complete"
+      ],
+      "notes": "H01~H06 누적 선택·실제 갈등 해결·마지막 대화로 판정합니다."
+    }
+  },
+  "lumi_secret": {
+    "heroine": "lumi",
+    "kind": "secret",
+    "title": "오늘만큼은 고양이랍니다♡",
+    "implemented": true,
+    "secret_category": "after_story",
+    "conditions": {
+      "route_complete": true,
+      "min_affection": null,
+      "required_flags": [
+        "harin_secret_after_complete"
+      ],
+      "notes": "하린 해피 엔딩 이후 별도로 읽는 애프터입니다.",
+      "required_ending": "lumi_happy"
+    }
+  }
+}
