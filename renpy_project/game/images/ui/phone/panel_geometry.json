@@ -1,0 +1,34 @@
+{
+  "source": "original code-native rounded UI geometry; SVG authoring sources retained",
+  "size": [
+    256,
+    96
+  ],
+  "radius": 22,
+  "frame_borders": [
+    28,
+    28
+  ],
+  "colors": {
+    "panel": [
+      "#ffffff",
+      "#e5eaed"
+    ],
+    "hover": [
+      "#e4f2ed",
+      "#b6d5c8"
+    ],
+    "reply": [
+      "#f5fbf8",
+      "#d1e4dd"
+    ],
+    "incoming": [
+      "#ffffff",
+      "#e2e9ec"
+    ],
+    "outgoing": [
+      "#deeee8",
+      "#d1e4dd"
+    ]
+  }
+}
